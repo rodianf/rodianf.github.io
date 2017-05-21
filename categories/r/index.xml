@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rodian Fonseca</title>
+    <link>http://rodian.co/categories/r/index.xml</link>
+    <description>Recent content on Rodian Fonseca</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-co</language>
+    <copyright>&lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by/4.0/&#34;&gt;&lt;img alt=&#34;Licencia Creative Commons&#34; style=&#34;border-width:0&#34; src=&#34;https://i.creativecommons.org/l/by/4.0/88x31.png&#34; /&gt;&lt;/a&gt; &lt;br&gt; Rodian Fonseca Campuzano. &lt;br&gt;</copyright>
+    <atom:link href="/categories/r/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Tablas de frecuencia con R</title>
+      <link>http://rodian.co/2016/12/21/tablas-de-frecuencia-con-r</link>
+      <pubDate>Wed, 21 Dec 2016 18:38:25 -0500</pubDate>
+      
+      <guid>http://rodian.co/2016/12/21/tablas-de-frecuencia-con-r</guid>
+      <description>&lt;!-- BLOGDOWN-BODY-BEFORE
+
+/BLOGDOWN-BODY-BEFORE --&gt;
+
+&lt;p&gt;Las tablas de distribución de frecuencias constituyen un método descriptivo que nos permite comprender la distribución de una variable cualitativa o cuantitativa según categorías o intervalos de clase que las componen. En R es posible construir tablas de frecuencia utilizando los paquetes &lt;code&gt;dplyr&lt;/code&gt; y &lt;code&gt;reshape2&lt;/code&gt; de forma relativamente fácil.&lt;/p&gt;
+&lt;p&gt;En ecología de comunidades es común trabajar con tablas de especies donde las filas contienen los datos de cada individuo registrado en campo y las variables (parcela, especie, área basal) se disponen como columnas. En el siguiente ejemplo se utilizará el marco de datos publicado por &lt;span class=&#34;citation&#34;&gt;Franklin et al. (2015)&lt;/span&gt;, que contiene información acerca del &lt;em&gt;diámetro a la altura del pecho DAP&lt;/em&gt; y el &lt;em&gt;área basal&lt;/em&gt; de árboles con DAP ≥ 5 cm en parcelas circulares de 10 m de radio, localizadas en parches de bosque seco tropical, en las islas de Abaco y Eleuthera en Las Bahamas.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr class=&#34;header&#34;&gt;
+&lt;th align=&#34;right&#34;&gt;OrderEntry&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;PlotID&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Date&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Island&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;PlotName&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Species&lt;/th&gt;
+&lt;th align=&#34;right&#34;&gt;dbh_cm&lt;/th&gt;
+&lt;th align=&#34;right&#34;&gt;ba_cm2&lt;/th&gt;
+&lt;th align=&#34;right&#34;&gt;ba_m2&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td align=&#34;right&#34;&gt;1&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;A01&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;5/9/09&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Abaco&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Ab8MC02DBH&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Acacia choriophylla&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;14.9&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;174.36610&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.0174366&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td align=&#34;right&#34;&gt;2&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;A01&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;5/9/09&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Abaco&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Ab8MC02DBH&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Acacia choriophylla&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;7.8&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;47.78358&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.0047784&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td align=&#34;right&#34;&gt;3&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;A01&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;5/9/09&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Abaco&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Ab8MC02DBH&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Acacia choriophylla&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;12.2&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;116.89856&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.0116899&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td align=&#34;right&#34;&gt;4&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;A01&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;5/9/09&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Abaco&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Ab8MC02DBH&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bourreria ovata&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;15.1&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;179.07848&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.0179078&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td align=&#34;right&#34;&gt;5&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;A01&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;5/9/09&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Abaco&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Ab8MC02DBH&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bourreria ovata&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;6.3&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;31.17243&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.0031172&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td align=&#34;right&#34;&gt;6&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;A01&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;5/9/09&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Abaco&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Ab8MC02DBH&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Bourreria ovata&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;6.6&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;34.21192&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.0034212&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;div id=&#34;tabla-de-abundancia&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Tabla de abundancia&lt;/h1&gt;
+&lt;p&gt;Las tablas de abundancia son tablas de frecuencia donde cada categoría representa una especie y su frecuencia se calcula a partir del número de registros en el marco de datos.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Cargar paquetes
+library(dplyr)
+library(reshape2)
+
+
+
+tabla &amp;lt;- datos %&amp;gt;%
+  group_by(Species) %&amp;gt;%
+  mutate(Frecuencia_relativa = n()/sum(n())) %&amp;gt;% 
+  dcast(Species ~ Island)
+
+kable(tabla)&lt;/code&gt;&lt;/pre&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr class=&#34;header&#34;&gt;
+&lt;th align=&#34;left&#34;&gt;Species&lt;/th&gt;
+&lt;th align=&#34;right&#34;&gt;Abaco&lt;/th&gt;
+&lt;th align=&#34;right&#34;&gt;Eleuthera&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;Acacia choriophylla&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;3&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;Bourreria ovata&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;3&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;Bursera simaruba&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;10&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;Coccoloba diversifolia&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;26&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;27&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;Eugenia axillaris&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;1&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;5&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;Eugenia rhombea&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;2&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;Exothea paniculata&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;11&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;7&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;Guapira obtusata&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;1&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;13&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;Mastichodendron foetidissimum&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;24&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;3&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;Metopium toxiferum&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;8&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;2&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;Persea palustris&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;2&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;Piscidia piscipula&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;3&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;Simarouba glauca&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;1&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;Swietenia mahagoni&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;6&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;div id=&#34;refs&#34; class=&#34;references&#34;&gt;
+&lt;div id=&#34;ref-Franklin2015&#34;&gt;
+&lt;p&gt;Franklin, J, J Ripplinger, EH Freid, H Marcano-Vega, and DW Steadman. 2015. “Data from: Regional Variation in Caribbean Dry Forest Tree Species Composition.” &lt;em&gt;Plant Ecology&lt;/em&gt;. Dryad Digital Repository. doi:&lt;a href=&#34;https://doi.org/doi:10.5061/dryad.2r5r9&#34;&gt;doi:10.5061/dryad.2r5r9&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+
+
+&lt;!-- BLOGDOWN-HEAD
+
+
+
+
+
+
+/BLOGDOWN-HEAD --&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

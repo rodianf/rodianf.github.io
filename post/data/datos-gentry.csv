@@ -1,0 +1,697 @@
+Transect	Line	Family	Genus	species	LIANA	N(IND)	STEMDBH1	STEMDBH2	STEMDBH3	STEMDBH4	STEMDBH5	STEMDBH6	STEMDBH7	STEMDBH8	STEMDBH9	STEMDBH10	STEMDBH11	STEMDBH12	STEMDBH13
+kennedy	10	ACTINIDIACEAE	Saurauia	M1		1	2,5												
+kennedy	1	APOCYNACEAE	M	M1	L	1	2,5												
+kennedy	3	APOCYNACEAE	M	M1	L	1	2,5												
+kennedy	1	AQUIFOLIACEAE	Ilex	M1		2	2,5	2,5											
+kennedy	7	AQUIFOLIACEAE	Ilex	M1		1	5												
+kennedy	8	AQUIFOLIACEAE	Ilex	M1		1	2,5												
+kennedy	9	AQUIFOLIACEAE	Ilex	M1		2	10	2,5											
+kennedy	2	AQUIFOLIACEAE	Ilex	M2		1	2,5												
+kennedy	7	AQUIFOLIACEAE	Ilex	M2		1	5												
+kennedy	2	AQUIFOLIACEAE	Ilex	M3		2	16	25											
+kennedy	4	AQUIFOLIACEAE	Ilex	M3		1	23												
+kennedy	7	AQUIFOLIACEAE	Ilex	M3		1	21												
+kennedy	8	AQUIFOLIACEAE	Ilex	M3		1	20												
+kennedy	1	AQUIFOLIACEAE	Ilex	M4		1	3												
+kennedy	4	AQUIFOLIACEAE	Ilex	M4		1	3												
+kennedy	8	AQUIFOLIACEAE	Ilex	M4		2	2,5	2,5											
+kennedy	9	AQUIFOLIACEAE	Ilex	M4		1	2,5												
+kennedy	4	AQUIFOLIACEAE	Ilex	M5		1	30												
+kennedy	1	ARALIACEAE	Schefflera	M1		2	2,5	27											
+kennedy	2	ARALIACEAE	Schefflera	M1		3	26	6	21	10	11	4							
+kennedy	4	ARALIACEAE	Schefflera	M1		3	2,5	38	15										
+kennedy	8	ARALIACEAE	Schefflera	M1		1	24												
+kennedy	9	ARALIACEAE	Schefflera	M1		4	2,5	2,5	2,5	2,5									
+kennedy	10	ARALIACEAE	Schefflera	M2		1	52												
+kennedy	2	ARECACEAE	Ceroxylon	schultzei            		1	17												
+kennedy	4	ARECACEAE	Ceroxylon	schultzei            		4	15	20	20	20									
+kennedy	5	ARECACEAE	Ceroxylon	schultzei            		2	17	20											
+kennedy	6	ARECACEAE	Ceroxylon	schultzei            		2	17	16											
+kennedy	7	ARECACEAE	Ceroxylon	schultzei            		3	16	18	28										
+kennedy	8	ARECACEAE	Ceroxylon	schultzei            		1	14												
+kennedy	9	ARECACEAE	Ceroxylon	schultzei            		3	19	16	17										
+kennedy	10	ARECACEAE	Ceroxylon	schultzei            		2	14	19											
+kennedy	1	ARECACEAE	Geonoma	M1		3	5	5	5										
+kennedy	2	ARECACEAE	Geonoma	M1		4	7	6	5	7									
+kennedy	3	ARECACEAE	Geonoma	M1		2	8	6											
+kennedy	4	ARECACEAE	Geonoma	M1		4	5	8	7	6									
+kennedy	5	ARECACEAE	Geonoma	M1		2	5	7											
+kennedy	6	ARECACEAE	Geonoma	M1		1	8												
+kennedy	7	ARECACEAE	Geonoma	M1		1	6												
+kennedy	9	ARECACEAE	Geonoma	M1		12	6	7	5	6	7	8	5	6	7	5	7	7	
+kennedy	10	ARECACEAE	Geonoma	M1		3	7	6	7										
+kennedy	5	ASTERACEAE	Mikania	M1	L	1	2,5												
+kennedy	1	ASTERACEAE	Paragynoxys	M1		3	13	2,5	19										
+kennedy	2	ASTERACEAE	Paragynoxys	M1		1	7												
+kennedy	3	ASTERACEAE	Paragynoxys	M1		1	8												
+kennedy	4	ASTERACEAE	Paragynoxys	M1		1	5												
+kennedy	1	BRUNELLIACEAE	Brunellia	M1		1	19												
+kennedy	2	BRUNELLIACEAE	Brunellia	M1		1	7												
+kennedy	4	BRUNELLIACEAE	Brunellia	M1		1	45												
+kennedy	6	BRUNELLIACEAE	Brunellia	M1		3	10	13	11										
+kennedy	7	BRUNELLIACEAE	Brunellia	M1		3	6	4	10	5									
+kennedy	9	BUXACEAE	Styloceras	M1		1	6												
+kennedy	1	CAPRIFOLIACEAE	Viburnum	cf. triphyllum          		2	4	6	2,5										
+kennedy	10	CAPRIFOLIACEAE	Viburnum	cf. triphyllum          		1	6												
+kennedy	2	CELASTRACEAE	Zinowiewia	australis             		2	2,5	27											
+kennedy	8	CELASTRACEAE	Zinowiewia	australis             		1	16												
+kennedy	7	CHLORANTHACEAE	Hedyosmum	crenatum		3	4	2,5	2,5	6									
+kennedy	2	CHLORANTHACEAE	Hedyosmum	racemosum              		2	2,5	2,5											
+kennedy	8	CHLORANTHACEAE	Hedyosmum	racemosum              		2	2,5	3	4	2,5									
+kennedy	9	CHLORANTHACEAE	Hedyosmum	racemosum              		2	2,5	2,5	2,5										
+kennedy	10	CHLORANTHACEAE	Hedyosmum	racemosum              		2	3	3	6										
+kennedy	8	CLUSIACEAE	Clusia	M1		1	17												
+kennedy	7	CUNONIACEAE	Weinmannia	M1		1	2,5												
+kennedy	3	CYATHEACEAE	Cyathea	pauciflora             		2	8	15											
+kennedy	10	CYATHEACEAE	Cyathea	pauciflora             		1	14												
+kennedy	10	CYATHEACEAE	M1	M1		1	14												
+kennedy	8	ERICACEAE	Psammisia	M1	L	1	8												
+kennedy	2	EUPHORBIACEAE	Croton	M1		1	3	2,5											
+kennedy	3	EUPHORBIACEAE	Croton	M1		4	17	2,5	27	10									
+kennedy	7	EUPHORBIACEAE	Croton	M1		2	5	6											
+kennedy	8	EUPHORBIACEAE	Hyeronima	M1		1	2,5												
+kennedy	1	LAURACEAE	M1	M1		1	2,5												
+kennedy	4	LAURACEAE	M2	M1		1	2,5												
+kennedy	7	LAURACEAE	M3	M1		2	4	16											
+kennedy	9	LAURACEAE	M4	M1		1	7												
+kennedy	3	LAURACEAE	Ocotea	aff guianensis		1	52												
+kennedy	1	LAURACEAE	Ocotea	discolor                  		2	4	2,5	2,5	17	4								
+kennedy	7	LAURACEAE	Ocotea	discolor                  		1	20												
+kennedy	1	LAURACEAE	Ocotea	M1		2	3	22	4										
+kennedy	3	LAURACEAE	Ocotea	M1		2	29	24	4										
+kennedy	5	LAURACEAE	Ocotea	M2		1	17	8											
+kennedy	8	LAURACEAE	Ocotea	M2		1	17	8											
+kennedy	8	LAURACEAE	Ocotea	M3		1	16												
+kennedy	1	MELASTOMATACEAE	Merriana	grandidens		4	2,5	2,5	3	5	14								
+kennedy	3	MELASTOMATACEAE	Miconia	cf. smithii              		1	16	12	22										
+kennedy	6	MELASTOMATACEAE	Miconia	cf. smithii              		1	10												
+kennedy	1	MELASTOMATACEAE	Miconia	tinifolia		3	10	2,5	9	6									
+kennedy	2	MELASTOMATACEAE	Miconia	tinifolia		5	27	3	2,5	2,5	2,5	7	4	2.5					
+kennedy	4	MELASTOMATACEAE	Miconia	tinifolia		4	15	18	4	5	5	3							
+kennedy	7	MELASTOMATACEAE	Miconia	tinifolia		4	3	4	8	12	2,5	6	5	8	7				
+kennedy	8	MELASTOMATACEAE	Miconia	tinifolia		4	13	2,5	6	2,5	8	19							
+kennedy	9	MELASTOMATACEAE	Miconia	tinifolia		4	3	10	8	10	13								
+kennedy	10	MELASTOMATACEAE	Miconia	tinifolia		3	16	9	14										
+kennedy	9	MYRSINACEAE	Cybianthus	M1		1	2,5												
+kennedy	1	MYRSINACEAE	Myrsine	coriacea                 		1	29												
+kennedy	2	MYRSINACEAE	Myrsine	coriacea                 		7	2,5	3	2,5	2,5	2,5	4	21						
+kennedy	5	MYRSINACEAE	Myrsine	coriacea                 		1	10												
+kennedy	6	MYRSINACEAE	Myrsine	coriacea                 		3	6	2,5	10										
+kennedy	10	MYRSINACEAE	Myrsine	coriacea                 		1	2,5												
+kennedy	1	MYRTACEAE	Calyptranthes	M1		1	3												
+kennedy	9	MYRTACEAE	Calyptranthes	M1		1	6												
+kennedy	9	MYRTACEAE	M1	M1		1	16												
+kennedy	2	MYRTACEAE	Myrcia	M1		2	5	2,5											
+kennedy	4	MYRTACEAE	Myrcia	M1		1	3												
+kennedy	2	MYRTACEAE	Myrcia	M2		3	2,5	3	2,5										
+kennedy	8	MYRTACEAE	Myrcia	M2		2	17	2,5											
+kennedy	1	POACEAE	Chusquea	M1	L	1	2,5												
+kennedy	2	POACEAE	Chusquea	M1	L	1	2,5	2,5	2,5	2,5									
+kennedy	3	POACEAE	Chusquea	M1	L	5	2,5	2,5	2,5	2,5	2,5	2.5	2.5	2.5					
+kennedy	4	POACEAE	Chusquea	M1	L	3	2,5	2,5	2,5	2,5	2,5	2.5	2.5	2.5					
+kennedy	5	POACEAE	Chusquea	M1	L	4	2,5	2,5	2,5	2,5	2,5	2.5	2.5						
+kennedy	7	POACEAE	Chusquea	M1	L	3	2,5	2,5	2,5	2,5	2,5	2.5	2.5	2.5					
+kennedy	8	POACEAE	Chusquea	M1	L	2	2,5	2,5	2,5										
+kennedy	9	POACEAE	Chusquea	M1	L	2	2,5	2,5	2,5	2,5									
+kennedy	6	PODOCARPACEAE	Podocarpus	M1		1	30												
+kennedy	8	PODOCARPACEAE	Podocarpus	M1		3	21	7	3	39									
+kennedy	2	PODOCARPACEAE	Podocarpus	oleifolius		2	3	3											
+kennedy	5	PODOCARPACEAE	Podocarpus	oleifolius            		2	24	52											
+kennedy	9	PODOCARPACEAE	Podocarpus	oleifolius            		1	18												
+kennedy	7	POLYGALACEAE	Monnina	M1		1	4												
+kennedy	2	POLYGALACEAE	Muhlenbeckia	M1	L	3	6	2,5	2,5										
+kennedy	8	POLYGALACEAE	Securidaca	rufescens             	L	1	2,5												
+kennedy	6	PROTEACEAE	Panopsis	costaricensis		1	25												
+kennedy	6	PROTEACEAE	Panopsis	suaveolens		1	25												
+kennedy	5	PROTEACEAE	Panopsis	suaveolens              		2	12	30											
+kennedy	3	RANUNCULACEAE	Clematis	M1	L	1	2,5												
+kennedy	2	ROSACEAE	Prunus	M1		1	2,5												
+kennedy	4	ROSACEAE	Prunus	M1		1	30												
+kennedy	5	ROSACEAE	Prunus	M1		1	10												
+kennedy	9	ROSACEAE	Prunus	M1		1	19												
+kennedy	10	RUBIACEAE	Faramea	killipii		1	17	17											
+kennedy	1	RUBIACEAE	Palicourea	M1		1	14												
+kennedy	3	RUBIACEAE	Palicourea	M1		1	2,5												
+kennedy	6	RUBIACEAE	Palicourea	M1		1	3												
+kennedy	7	RUBIACEAE	Palicourea	M1		1	7												
+kennedy	8	RUBIACEAE	Palicourea	M1		1	17												
+kennedy	2	SABIACEAE	Meliosma	martana		1	9												
+kennedy	4	STYRACACEAE	Styrax	schultzei                 		2	10	41											
+kennedy	6	STYRACACEAE	Styrax	schultzei                 		1	36												
+kennedy	9	STYRACACEAE	Styrax	schultzei                 		1	43												
+kennedy	1	SYMPLOCACEAE	Symplocos	M1		1	3												
+kennedy	6	SYMPLOCACEAE	Symplocos	M1		4	3	5	2,5	2,5									
+kennedy	8	SYMPLOCACEAE	Symplocos	M2		1	27												
+kennedy	9	SYMPLOCACEAE	Symplocos	M3		2	5	11											
+kennedy	10	SYMPLOCACEAE	Symplocos	M3		2	2,5	4											
+kennedy	1	THEACEAE	Gordonia	fruticosa		2	21	12											
+kennedy	3	THEACEAE	Gordonia	fruticosa		1	35												
+kennedy	7	THEACEAE	Gordonia	fruticosa		2	28	6	15										
+kennedy	9	THEACEAE	Gordonia	fruticosa		1	33												
+kennedy	2	THEACEAE	Gordonia	planchonii              		1	2,5												
+kennedy	3	THEACEAE	Gordonia	planchonii              		1	35												
+kennedy	8	THEACEAE	Gordonia	planchonii              		1	2,5												
+kennedy	10	THEACEAE	Gordonia	planchonii              		2	2,5	42											
+kennedy	6	THYMELAEACEAE	Schoenobiblus	M1		1	2,5												
+kennedy	3	VITACEAE	Cissus	M1	L	1	2,5												
+kennedy	5	VITACEAE	Cissus	M1	L	2	2,5	2,5											
+kennedy	10	VITACEAE	Cissus	M1	L	1	2,5												
+manaure	2	ACANTHACEAE	M1	M1		1	2,5												
+manaure	5	ANACARDIACEAE	Anacardium	excelsor		1	53												
+manaure	1	ANACARDIACEAE	Anacardium	occidentalis		1	60												
+manaure	3	ANACARDIACEAE	Astronium	graveolens		2	5	24	24										
+manaure	6	ANACARDIACEAE	Astronium	graveolens		1	9												
+manaure	6	APOCYNACEAE	Arrabidaea	aelloi	L	1	10												
+manaure	4	APOCYNACEAE	Arrabidaea	corallina	L	1	3												
+manaure	3	APOCYNACEAE	Aspidosperma	cuspa		1	8												
+manaure	6	APOCYNACEAE	Aspidosperma	polyneuron		1	6												
+manaure	7	APOCYNACEAE	Aspidosperma	polyneuron		2	4	4											
+manaure	7	APOCYNACEAE	Aspidosperma Aff	M1		2	2,5	7	3										
+manaure	3	APOCYNACEAE	Callichlamys	latifolia	L	1	6												
+manaure	5	APOCYNACEAE	Forsteronia	spicata	L	1	2,5												
+manaure	1	APOCYNACEAE	Plumeria	rubra	 	1	10												
+manaure	3	APOCYNACEAE	Plumeria	rubra		1	4												
+manaure	6	ASTERACEAE	M1	M1	 	2	2,5	3	2,5	2,5									
+manaure	7	ASTERACEAE	M1	M1		4	2,5	2,5	8	2,5									
+manaure	5	BIGNONIACEAE	Callichlamys	latifolia	L	1	2,5												
+manaure	1	BIGNONIACEAE	Phryganocydia	M1	L	4	2,5	2,5	4	3									
+manaure	5	BIGNONIACEAE	Tabebuia	rosea		1	11												
+manaure	5	BIGNONIACEAE	Xylophragma	senannia	L	2	2,5	2,5											
+manaure	1	BOMBACACEAE	Cavanillesia	platanifolia	L	1	120												
+manaure	2	BOMBACACEAE	Cavanillesia	platanifolia		1	5												
+manaure	3	BOMBACACEAE	Cavanillesia	platanifolia		1	6												
+manaure	1	BOMBACACEAE	Pseudobombax	M1		1	13												
+manaure	4	BOMBACACEAE	Psuedobombax	M1		1	13												
+manaure	5	BORAGINACEAE	Cordia	alliodora		1	3												
+manaure	3	CACTACEAE	Hylocereus	venezuelensis	H	1	2,5												
+manaure	4	CACTACEAE	Hylocereus	venezuelensis	H	1	3												
+manaure	6	CACTACEAE	Hylocereus	venezuelensis	H	1	2,5												
+manaure	6	CACTACEAE	M1	M1		1	6												
+manaure	1	CAPPARIDACEAE	Capparis	sola		1	2,5	2,5											
+manaure	5	CECROPIACEAE	Cecropia	peltata		1	15												
+manaure	3	CELASTRACEAE	Hippocratea	M1	L	1	2,5												
+manaure	3	CELASTRACEAE	Hippocratea	volubilis	L	2	10	15											
+manaure	3	CONVOLVULACEAE	Turbina	abutiloides		4	2,5	2,5	5	7									
+manaure	1	CONVOLVULACEAE	Turbina	abutiluida	L	1	4												
+manaure	7	CUCURBITACEAE	M1	M1	L	1	2,5												
+manaure	3	ERYTHROXYLACEAE	Erythroxylum	havanense		2	3	5											
+manaure	6	ERYTHROXYLACEAE	Erythroxylum	havanense		3	2,5	2,5	2,5										
+manaure	7	ERYTHROXYLACEAE	Erythroxylum	havanense		1	2,5												
+manaure	2	ERYTHROXYLACEAE	Erythroxylum	hondense	 	1	2,5												
+manaure	5	EUPHORBIACEAE	Acalypha	macrostachya		2	9	10											
+manaure	7	EUPHORBIACEAE	Cnidoscolus	M1		2	8	9											
+manaure	2	EUPHORBIACEAE	Cnidoscolus	vitifolius		1	12												
+manaure	6	EUPHORBIACEAE	Cnidoscolus	vitifolius		4	3	5	2,5	2,5	2,5								
+manaure	7	EUPHORBIACEAE	Cnidoscolus	vitifolius		5	2,5	2,5	2,5	2,5	13	7							
+manaure	5	EUPHORBIACEAE	Croton	M1		1	6	6	9										
+manaure	6	EUPHORBIACEAE	Croton	niveus		2	2,5	2,5											
+manaure	3	EUPHORBIACEAE	Margaritaria	M1		2	15	3											
+manaure	6	FABACEAE	Albizia	caribaea	L	2	8	13											
+manaure	7	FABACEAE	Albizia	caribaea aff		1	14												
+manaure	2	FABACEAE	Bauhinia	glabra	L	1	2,5												
+manaure	3	FABACEAE	Bauhinia	glabra	L	1	5												
+manaure	2	FABACEAE	Calliandra	magdalenae	 	2	3	5	4	3	3								
+manaure	3	FABACEAE	Calliandra	magdalenae		4	2,5	8	3	6									
+manaure	4	FABACEAE	Calliandra	magdalenae		1	2,5												
+manaure	5	FABACEAE	Cassia	M1		1	2,5												
+manaure	7	FABACEAE	Cassia	M1		1	10												
+manaure	2	FABACEAE	Clitoria?	M1		1	4												
+manaure	5	FABACEAE	Erythrina	berteroana		2	2,5	33											
+manaure	1	FABACEAE	M1	M1		1	27												
+manaure	3	FABACEAE	M2	M1		1	10												
+manaure	2	FABACEAE	Machaerium	biovulatum		1	24												
+manaure	1	FABACEAE	Machaerium	M1		2	4	5											
+manaure	1	FABACEAE	Machaerium	m2	L	1	7												
+manaure	4	FABACEAE	Machaerium	m3		2	3	4											
+manaure	5	FABACEAE	Machaerium	moritzianum		1	2,5												
+manaure	2	FABACEAE	Peltogyne	purpupea		2	38	14											
+manaure	3	FABACEAE	Peltogyne	purpupea		1	23												
+manaure	1	FABACEAE	Peltogyne	purpurea	 	3	8	7	2,5										
+manaure	4	FABACEAE	Peltogyne	purpurea		1	40												
+manaure	7	FABACEAE	Pithecellobium	dulce		1	2,5	2,5											
+manaure	2	FABACEAE	Platypodium	elegans		1	62												
+manaure	5	FABACEAE	Pterocarpus	floribundus		1	4												
+manaure	1	HERNANDIACEAE	Gyrocarpus	american		1	2,5												
+manaure	5	HERNANDIACEAE	Gyrocarpus	american	 	7	34	4	2,5	8	3	2,5	3						
+manaure	2	MALPIGHIACEAE	Hiraea	reclinata	L	1	2,5	 											
+manaure	3	MALPIGHIACEAE	Hiraea	reclinata	L	3	2,5	2,5	2,5										
+manaure	6	MALPIGHIACEAE	Hiraea	reclinata	L	2	7	2,5											
+manaure	4	MALPIGHIACEAE	Stigmaphyllon	M1	L	3	2,5	3	4										
+manaure	1	MORACEAE	Brosimum	alicastrum		1	6												
+manaure	3	MORACEAE	Brosimum	alicastrum		2	27	8											
+manaure	4	MORACEAE	Brosimum	alicastrum		1	11												
+manaure	4	MORACEAE	Brosimum	guianense		1	50												
+manaure	2	MORACEAE	Maclura	tinctora	L	1	2,5												
+manaure	5	MORACEAE	Maclura	tinctora		3	12	4	6										
+manaure	1	MYRTACEAE	Calycorectes	M1		4	2,5	2,5	4	3	4								
+manaure	2	MYRTACEAE	Calycorectes	M1		4	2,5	2,5	3	3	4	4	11	14					
+manaure	3	MYRTACEAE	Calycorectes	M1		1	8	4	4										
+manaure	6	MYRTACEAE	Eugenia	rhombea		3	8	13	2,5										
+manaure	7	MYRTACEAE	Eugenia	rhombea		1	2,5												
+manaure	7	NYCTAGINACEAE	M1	M1		2	3	5											
+manaure	5	PIPERACEAE	Piper	tubercalatum		1	8												
+manaure	1	POLYGONACEAE	Coccoloba	M1		1	13												
+manaure	2	POLYGONACEAE	Coccoloba	M1		3	4	6	3	8	2,5								
+manaure	3	POLYGONACEAE	Coccoloba	M1		1	2,5												
+manaure	4	POLYGONACEAE	Coccoloba	M1		3	4	4	3	1	4	3							
+manaure	5	POLYGONACEAE	Coccoloba	M1		1	6	4											
+manaure	3	POLYGONACEAE	Securidaca	scandens	L	1	2,5												
+manaure	5	RUBIACEAE	Chomelia	spinosa		1	2,5												
+manaure	2	RUBIACEAE	M1	M1		1	5												
+manaure	1	RUBIACEAE	Simira	mollis		2	2,5	2,5											
+manaure	2	RUBIACEAE	Simira	mollis		8	4	5	25	3	3	3	3	2,5					
+manaure	3	RUBIACEAE	Simira	mollis		4	13	13	10	12									
+manaure	4	RUBIACEAE	Simira	mollis		13	3	2,5	5	5	6	2,5	7	4	4	6	8	6	6
+manaure	6	RUBIACEAE	Simira	mollis		2	12	2,5											
+manaure	7	RUBIACEAE	Simira	mollis		1	9												
+manaure	3	RUTACEAE	Amyris	ignea		1	6	2,5											
+manaure	6	RUTACEAE	Amyris	ignea		3	3	8	5										
+manaure	7	RUTACEAE	Amyris	ignea	 	5	2,5	2,5	2,5	3	2,5	5							
+manaure	4	SAPINDACEAE	Italisia	olivisturmis		2	7	4											
+manaure	2	SAPINDACEAE	Melicoccus	bijugatus		1	2,5												
+manaure	1	SAPINDACEAE	Paullinia	turbacensis	L	2	4	2,5	2,5										
+manaure	2	SAPINDACEAE	Paullinia	turbacensis	L	1	2,5												
+manaure	4	SAPINDACEAE	Sapindus	saponaria		2	11	3											
+manaure	5	SAPINDACEAE	Sapindus	saponaria		1	2,5												
+manaure	7	SAPINDACEAE	Serjania	atrolineata	L	3	4	2,5	2,5										
+manaure	1	SAPINDACEAE	Serjania	rhombeu	L	5	7	4	8	2,5	4	5	2,5						
+manaure	1	SAPINDACEAE	Talisia	oliviturmis		1	6												
+manaure	2	SAPINDACEAE	Talisia	oliviturmis		1	6												
+manaure	3	SAPINDACEAE	Talisia	oliviturmis		2	89	7											
+manaure	3	SAPINDACEAE	Thinouia	myriantha	L	1	2,5												
+manaure	4	SAPINDACEAE	Thinouia	myriantha	L	2	7	4											
+manaure	1	SAPOTACEAE	Pradosia	columbiana		1	35												
+manaure	6	SAPOTACEAE	Pradosia	columbiana		1	13	4	2,5										
+manaure	7	SAPOTACEAE	Pradosia	columbiana		3	18	30	24										
+manaure	7	STERCULIACEAE	Helicteres	carthagininsis		3	4	2,5	2,5	2,5									
+manaure	5	ULMACEAE	Celtis	iguanea	L	3	6	2,5	2,5										
+manaure	7	VERBENACEAE	Lippia	americana		1	4	2,5											
+manaure	2	VERBENACEAE	Petrea	arborea	L	2	4	4	5	3									
+manaure	2	VERBENACEAE	Vitex	compressa		1	18												
+manaure	2	VERBENACEAE	Vitex	compressa		1	7	3											
+manaure	3	VERBENACEAE	Vitex	compressa		1	14												
+manaure	4	VERBENACEAE	Vitex	compressa		1	21												
+tayrona	9	ACANTHACEAE	Ruellia	macrophylla              		1	2,5												
+tayrona	5	ANACARDIACEAE	Astronium	fraxinifolium       		1	19												
+tayrona	3	ANACARDIACEAE	Astronium	graveolens		1	17												
+tayrona	7	ANACARDIACEAE	Astronium	graveolens		1	4												
+tayrona	10	ANACARDIACEAE	Astronium	graveolens		1	39												
+tayrona	1	ANACARDIACEAE	Spondias	mombin                  		1	54												
+tayrona	8	APOCYNACEAE	Aspidosperma	polyneuron		1	48												
+tayrona	10	APOCYNACEAE	Forsteronia	spicata              	L	2	2,5	2,5											
+tayrona	1	APOCYNACEAE	Marsdenia	altissima              	L	1	2,5												
+tayrona	4	APOCYNACEAE	Marsdenia	altissima              	L	2	2,5	2,5											
+tayrona	1	BIGNONIACEAE	Arrabidaea	conjugata          	L	1	2,5												
+tayrona	2	BIGNONIACEAE	Arrabidaea	conjugata          	L	2	2,5	2,5											
+tayrona	3	BIGNONIACEAE	Arrabidaea	conjugata          	L	2	2,5	2,5											
+tayrona	4	BIGNONIACEAE	Arrabidaea	conjugata          	L	2	2,5	2,5											
+tayrona	5	BIGNONIACEAE	Arrabidaea	conjugata          	L	2	5	2,5											
+tayrona	10	BIGNONIACEAE	Arrabidaea	conjugata          	L	1	2,5												
+tayrona	1	BIGNONIACEAE	Arrabidaea	pubescens          	L	2	2,5	2,5											
+tayrona	2	BIGNONIACEAE	Arrabidaea	pubescens          	L	4	2,5	2,5	5	5									
+tayrona	4	BIGNONIACEAE	Arrabidaea	pubescens          	L	1	5												
+tayrona	1	BIGNONIACEAE	Clytostoma	pterocalyx          	L	1	2,5												
+tayrona	2	BIGNONIACEAE	Clytostoma	pterocalyx          	L	2	5	2,5											
+tayrona	3	BIGNONIACEAE	Clytostoma	pterocalyx          	L	3	2,5	2,5	5										
+tayrona	6	BIGNONIACEAE	Clytostoma	pterocalyx          	L	1	2,5												
+tayrona	8	BIGNONIACEAE	Clytostoma	pterocalyx          	L	11	4	2,5	2.5	2.5	2.5	2.5	2.5	2.5	2.5	2.5	2.5		
+tayrona	9	BIGNONIACEAE	Clytostoma	pterocalyx          	L	1	2,5												
+tayrona	10	BIGNONIACEAE	Clytostoma	pterocalyx          	L	2	2,5	2,5											
+tayrona	1	BIGNONIACEAE	Cydista	diversifolia           	L	3	2,5	2,5	2.5										
+tayrona	2	BIGNONIACEAE	Cydista	diversifolia           	L	4	2,5	2,5	2.5	2.5	2.5								
+tayrona	4	BIGNONIACEAE	Cydista	diversifolia           	L	2	2,5	2,5											
+tayrona	5	BIGNONIACEAE	Cydista	diversifolia           	L	3	2,5	5	2.5										
+tayrona	8	BIGNONIACEAE	Cydista	diversifolia           	L	1	2,5												
+tayrona	9	BIGNONIACEAE	Cydista	diversifolia           	L	1	2,5												
+tayrona	6	BIGNONIACEAE	Macfadyena	unguis-cati           	L	5	2,5	8	2.5	2.5	2.5								
+tayrona	8	BIGNONIACEAE	Macfadyena	unguis-cati           	L	1	7												
+tayrona	9	BIGNONIACEAE	Macfadyena	unguis-cati           	L	6	10	2,5	2.5	2.5	4	5							
+tayrona	2	BIGNONIACEAE	Pithecoctenium	crucigerum        	L	1	2,5												
+tayrona	2	BIGNONIACEAE	Tabebuia	billbergii              		2	17	2,5											
+tayrona	3	BIGNONIACEAE	Tabebuia	billbergii              		2	25	5	2.5										
+tayrona	4	BIGNONIACEAE	Tabebuia	billbergii              		1	5	32											
+tayrona	5	BIGNONIACEAE	Tabebuia	billbergii              		3	18	15	7.5	22	2.5	2.5	2.5						
+tayrona	4	BURSERACEAE	Bursera	graveolens            		1	13												
+tayrona	7	CACTACEAE	Pereskia	guamacho                		1	2,5												
+tayrona	8	CAPPARIDACEAE	Capparis	frondosa		1	2,5												
+tayrona	6	CAPPARIDACEAE	Capparis	indica               		2	2,5	2,5	3	5									
+tayrona	2	CAPPARIDACEAE	Capparis	odoratissima          		1	2,5												
+tayrona	3	CAPPARIDACEAE	Capparis	odoratissima          		2	2,5	5	2.5	2.5	11	14							
+tayrona	4	CAPPARIDACEAE	Capparis	odoratissima          		2	2,5	11											
+tayrona	5	CAPPARIDACEAE	Capparis	odoratissima          		2	5	2,5											
+tayrona	6	CAPPARIDACEAE	Capparis	tenuisiliqua          		4	7	6	2.5	2.5	6								
+tayrona	7	CAPPARIDACEAE	Capparis	tenuisiliqua          		4	2,5	2,5	4	2,5	2,5								
+tayrona	1	CAPPARIDACEAE	Capparis	verrucosa             		1	5	2,5											
+tayrona	2	CAPPARIDACEAE	Capparis	verrucosa             		4	2,5	2,5	2.5	2.5	5	2.5	2.5						
+tayrona	3	CAPPARIDACEAE	Capparis	verrucosa             		8	5	2,5	2.5	2.5	2.5	2.5	2.5	2.5					
+tayrona	4	CAPPARIDACEAE	Capparis	verrucosa             		1	2,5												
+tayrona	5	CAPPARIDACEAE	Capparis	verrucosa             		4	2,5	2,5	2.5	2.5									
+tayrona	6	CAPPARIDACEAE	Capparis	verrucosa             		3	2,5	2,5	2.5	2.5	3								
+tayrona	8	CAPPARIDACEAE	Capparis	verrucosa             		2	4	3	3										
+tayrona	9	CAPPARIDACEAE	Capparis	verrucosa             		1	2,5												
+tayrona	10	CAPPARIDACEAE	Capparis	verrucosa             		1	4	2,5	2.5										
+tayrona	6	CAPPARIDACEAE	Morisonia	americana              		3	2,5	2,5	2.5	9									
+tayrona	7	CAPPARIDACEAE	Morisonia	americana              		1	17	15	21										
+tayrona	8	CAPPARIDACEAE	Morisonia	americana              		1	3	2,5											
+tayrona	6	CELASTRACEAE	Hippocratea	volubilis            	L	2	2,5	2,5											
+tayrona	1	COCHLOSPERMACEAE	Cochlospermum	vitifolium       		1	36												
+tayrona	5	COCHLOSPERMACEAE	Cochlospermum	vitifolium       		1	31												
+tayrona	6	CONVOLVULACEAE	Bonamia	tricantha	L	1	2,5												
+tayrona	7	CONVOLVULACEAE	Jacquemontia	M1	L	3	2,5	2,5	2.5										
+tayrona	10	CONVOLVULACEAE	Jacquemontia	M1	L	1	2,5												
+tayrona	5	CONVOLVULACEAE	M1	M1	L	1	2,5												
+tayrona	10	CUCURBITACEAE	M1	M1	L	1	2,5												
+tayrona	3	ERYTHROXYLACEAE	Erythroxylum	havanense           		4	5	5	5	2.5	5	2.5							
+tayrona	4	ERYTHROXYLACEAE	Erythroxylum	havanense           		2	5	2,5											
+tayrona	9	ERYTHROXYLACEAE	Erythroxylum	havanense           		1	2,5												
+tayrona	10	ERYTHROXYLACEAE	Erythroxylum	havanense           		1	2,5												
+tayrona	6	EUPHORBIACEAE	Croton	niveus                 		1	3	2,5	5										
+tayrona	7	EUPHORBIACEAE	Croton	niveus                 		1	2,5												
+tayrona	8	EUPHORBIACEAE	Croton	niveus                 		1	2,5	2,5											
+tayrona	9	EUPHORBIACEAE	Croton	niveus                 		1	2,5	3											
+tayrona	10	EUPHORBIACEAE	Croton	niveus                 		1	2,5												
+tayrona	2	EUPHORBIACEAE	Manihot	carthaginensis           		1	7,5												
+tayrona	6	FABACEAE	Acacia	macrantha              		1	7	2,5	6										
+tayrona	1	FABACEAE	Caesalpinia	coriaria		1	10												
+tayrona	2	FABACEAE	Caesalpinia	corymbosa         		1	42												
+tayrona	5	FABACEAE	Caesalpinia	corymbosa         		1	35												
+tayrona	8	FABACEAE	Caesalpinia	corymbosa         		1	10												
+tayrona	1	FABACEAE	Calliandra	laxa               		2	5	7,5	7.5	7.5									
+tayrona	2	FABACEAE	Calliandra	laxa               		2	7,5	5											
+tayrona	3	FABACEAE	Calliandra	laxa               		1	5	2,5											
+tayrona	4	FABACEAE	Calliandra	laxa               		3	5	2,5	2.5	10									
+tayrona	6	FABACEAE	Calliandra	laxa               		1	8	3											
+tayrona	2	FABACEAE	Lonchocarpus	M1		2	9	9											
+tayrona	6	FABACEAE	Lonchocarpus	M1		1	54												
+tayrona	7	FABACEAE	Lonchocarpus	M1		4	6	10	5	8									
+tayrona	8	FABACEAE	Lonchocarpus	M1		2	4	14											
+tayrona	9	FABACEAE	Lonchocarpus	M1		1	8												
+tayrona	10	FABACEAE	Lonchocarpus	M1		2	3	8											
+tayrona	4	FABACEAE	Machaerium	microphyllum		1	13												
+tayrona	5	FABACEAE	Machaerium	microphyllum		7	2,5	5	16	5	7.5	5	11	10	7.5	2.5	14		
+tayrona	7	FABACEAE	Machaerium	microphyllum		1	8												
+tayrona	8	FABACEAE	Machaerium	microphyllum		2	25	4											
+tayrona	9	FABACEAE	Machaerium	microphyllum		2	34	4	2.5										
+tayrona	1	FABACEAE	Machaerium	microphyllum          		8	11	9	7.5	8	5	5	7.5	13	9				
+tayrona	2	FABACEAE	Machaerium	microphyllum          		6	8	11	9	9	12	7.5							
+tayrona	8	FABACEAE	Machaerium	moritizianum          		1	2,5												
+tayrona	4	FABACEAE	Piptacenia	flava		1	15												
+tayrona	3	FABACEAE	Piptadenia	flava		1	5	2,5	2,5										
+tayrona	4	FABACEAE	Pithecellobium	dulce             		1	7,5												
+tayrona	6	FABACEAE	Pithecellobium	dulce             		1	8	5	2.5										
+tayrona	2	FABACEAE	Platymiscium	pinnatum            		1	7,5												
+tayrona	3	FABACEAE	Platymiscium	pinnatum            		1	21												
+tayrona	9	FABACEAE	Platymiscium	pinnatum            		2	25	22											
+tayrona	1	FABACEAE	Pterocarpus	rohrii               		1	5												
+tayrona	5	FABACEAE	Pterocarpus	rohrii               		1	2,5	23											
+tayrona	7	FABACEAE	Pterocarpus	rohrii               		1	30	10	5	4									
+tayrona	9	FABACEAE	Pterocarpus	rohrii               		3	13	5	13										
+tayrona	10	FABACEAE	Pterocarpus	rohrii               		3	4	20	16										
+tayrona	2	FLACOURTIACEAE	Casearia	praecox              		2	5	5	2.5										
+tayrona	3	FLACOURTIACEAE	Casearia	praecox              		2	5	2,5											
+tayrona	4	FLACOURTIACEAE	Casearia	praecox              		1	2,5												
+tayrona	7	FLACOURTIACEAE	Casearia	praecox              		7	18	2,5	13	2.5	4	5	7	2.5	3				
+tayrona	7	FLACOURTIACEAE	Casearia	praecox              		3	5	4	7	2.5									
+tayrona	8	FLACOURTIACEAE	Casearia	praecox              		2	4	10											
+tayrona	9	FLACOURTIACEAE	Casearia	praecox              		3	14	4	3	4									
+tayrona	10	FLACOURTIACEAE	Casearia	praecox              		2	9	2,5											
+tayrona	3	FLACOURTIACEAE	Casearia	tremula              		3	2,5	2,5	2.5										
+tayrona	1	HERNANDIACEAE	Gyrocarpus	americanus		1	26	12											
+tayrona	2	MALPIGHIACEAE	Bunchosia	M1		2	2,5	5	5										
+tayrona	3	MALPIGHIACEAE	Bunchosia	M1		2	5	3											
+tayrona	7	MALPIGHIACEAE	Stigmaphyllon	ellipticum	L	1	2,5												
+tayrona	9	MELIACEAE	Trichilia	hirta                  		1	18												
+tayrona	10	MORACEAE	Brosimum	alicastrum           		1	2,5												
+tayrona	6	NYCTAGINACEAE	Neea	M1		1	11												
+tayrona	8	NYCTAGINACEAE	Neea	M1		1	15												
+tayrona	3	NYCTAGINACEAE	Neea	ovalifolia                  		2	5	2,5											
+tayrona	4	NYCTAGINACEAE	Neea	ovalifolia                  		3	7,5	2,5	5										
+tayrona	6	NYCTAGINACEAE	Neea	ovalifolia                  		1	10												
+tayrona	7	NYCTAGINACEAE	Neea	virens                		1	10												
+tayrona	10	NYCTAGINACEAE	Neea	virens                		2	16	9	9										
+tayrona	1	POLYGALACEAE	Securidaca	coriacea	L	1	2,5												
+tayrona	7	POLYGALACEAE	Securidaca	coriacea	L	1	2,5												
+tayrona	2	POLYGONACEAE	Coccoloba	coronata             		3	7,5	7,5	2.5										
+tayrona	3	POLYGONACEAE	Coccoloba	coronata             		5	5	2,5	2.5	2.5	2.5	2.5	2.5						
+tayrona	6	POLYGONACEAE	Coccoloba	coronata             		1	4	6	7	8	6	4							
+tayrona	7	POLYGONACEAE	Coccoloba	coronata             		1	3	3	2.5	2.5									
+tayrona	8	POLYGONACEAE	Coccoloba	coronata             		1	5	3	2.5	5	8	8	8	8	8	9			
+tayrona	9	POLYGONACEAE	Coccoloba	coronata             		1	6	4	2.5	2.5	4								
+tayrona	10	POLYGONACEAE	Coccoloba	coronata             		1	4	5	8	3									
+tayrona	7	RHAMNACEAE	Colubrina	elliptica            		1	45												
+tayrona	6	RUBIACEAE	Pogonopus	speciosus              		1	2,5												
+tayrona	8	RUBIACEAE	Pogonopus	speciosus              		1	12	2,5											
+tayrona	9	RUBIACEAE	Pogonopus	speciosus              		2	5	5	3										
+tayrona	10	RUBIACEAE	Pogonopus	speciosus              		5	2,5	2,5	5	4	2.5	4	6	12	2.5	9	6		
+tayrona	9	RUBIACEAE	Simira	cordifolia                		1	5	2,5	30										
+tayrona	8	SAPINDACEAE	Sapindus	saponaria               		1	2,5												
+tayrona	9	SAPINDACEAE	Sapindus	saponaria               		1	25												
+tayrona	1	SAPINDACEAE	Serjania	rhombea                 	L	1	2,5												
+tayrona	2	SAPINDACEAE	Serjania	rhombea                 	L	1	2,5												
+tayrona	3	SAPINDACEAE	Serjania	rhombea                 	L	2	5	5											
+tayrona	4	SAPINDACEAE	Serjania	rhombea                 	L	1	2,5												
+tayrona	8	SAPINDACEAE	Talisia	intermedia               		1	26												
+tayrona	6	SAPINDACEAE	Thinouia	myriantha               	L	3	2,5	2,5	2.5	4	4								
+tayrona	7	SAPINDACEAE	Thinouia	myriantha               	L	1	5												
+tayrona	10	SAPINDACEAE	Thinouia	myriantha               	L	1	2,5												
+tayrona	7	SAPOTACEAE	Pradosia	colombiana              		1	31												
+tayrona	8	SAPOTACEAE	Pradosia	colombiana              		1	12												
+tayrona	9	SAPOTACEAE	Pradosia	colombiana              		1	2,5												
+tayrona	7	STERCULIACEAE	Guazuma	tomentosa                		1	9	8											
+tayrona	1	THEOPHRASTACEAE	Jacquinia	aristata               		1	2,5												
+tayrona	7	THEOPHRASTACEAE	Jacquinia	aristata               		1	2,5												
+tayrona	8	THEOPHRASTACEAE	Jacquinia	aristata               		1	15												
+tayrona	1	VERBENACEAE	Vitex	compressa          	 	2	20	14											
+tayrona	1	VITACEAE	Cissus	verticellata	L	2	2,5	2,5											
+tayrona	3	VITACEAE	Cissus	verticellata	L	1	2,5												
+colosoi	4	ACANTHACEAE	Barleria	M1		1	2,5												
+colosoi	6	ACANTHACEAE	Barleria	M1		1	2,5												
+colosoi	2	AMARANTHACEAE	Chamissoa	altissima            	L	2	2,5	2.5											
+colosoi	4	AMARANTHACEAE	Chamissoa	altissima            	L	4	4												
+colosoi	5	AMARANTHACEAE	Chamissoa	altissima            	L	1	2,5												
+colosoi	10	AMARANTHACEAE	Chamissoa	altissima            	L	1	2,5												
+colosoi	1	ANACARDIACEAE	Astronium	graveolens          		1	14												
+colosoi	9	ANACARDIACEAE	Astronium	graveolens          		1	18												
+colosoi	1	ANACARDIACEAE	Spondias	mombin                  		1	52												
+colosoi	3	ANACARDIACEAE	Spondias	mombin                  		1	2,5												
+colosoi	3	ANNONACEAE	Oxandra	M1		1	11												
+colosoi	7	ANNONACEAE	Xylopia	M1		1	3												
+colosoi	8	APOCYNACEAE	Aspidosperma	curranii         		1	7	4											
+colosoi	9	APOCYNACEAE	Aspidosperma	M1		1	11												
+colosoi	1	APOCYNACEAE	Aspidosperma	polyneuron		2	3	3											
+colosoi	2	APOCYNACEAE	Aspidosperma	polyneuron		2	3	2.5	3										
+colosoi	3	APOCYNACEAE	Aspidosperma	polyneuron		1	11												
+colosoi	4	APOCYNACEAE	Aspidosperma	polyneuron		3	2,5	13	5										
+colosoi	5	APOCYNACEAE	Aspidosperma	polyneuron		1	3												
+colosoi	1	APOCYNACEAE	Forsteronia	spicata              	L	1	5												
+colosoi	4	APOCYNACEAE	Plumeria	M1		1	6												
+colosoi	6	APOCYNACEAE	Stemmadenia	glabra               		1	3												
+colosoi	7	APOCYNACEAE	Stemmadenia	glabra               		2	2,5	2.5											
+colosoi	1	APOCYNACEAE	Tabernaemontana	amygdalifolia      		2	6	3											
+colosoi	5	APOCYNACEAE	Tabernaemontana	amygdalifolia      		1	3												
+colosoi	8	APOCYNACEAE	Tabernaemontana	amygdalifolia      		1	4	2.5											
+colosoi	7	ARACEAE	Anthurium	pentaphyllum	H	1	2,5												
+colosoi	2	ASCLEPIADACEAE	M1	M1	L	1	2,5												
+colosoi	2	ASTERACEAE	Koanophyllon	celtidifolia		1	3												
+colosoi	3	ASTERACEAE	Koanophyllon	celtidifolia		1	6												
+colosoi	10	BIGNONIACEAE	Adenocalymna	inundatum	L	1	2,5												
+colosoi	1	BIGNONIACEAE	Adenocalymna	inundatum        	L	1	2,5												
+colosoi	8	BIGNONIACEAE	Adenocalymna	inundatum        	L	1	2,5												
+colosoi	2	BIGNONIACEAE	Arrabidaea	conjugata          	L	1	2,5												
+colosoi	3	BIGNONIACEAE	Arrabidaea	mollissima         	L	1	2,5												
+colosoi	6	BIGNONIACEAE	Arrabidaea	mollissima         	L	1	5												
+colosoi	1	BIGNONIACEAE	Clytostoma	pterocalyx          	L	7	2,5	2.5	4	2.5	2.5	2.5	3						
+colosoi	2	BIGNONIACEAE	Clytostoma	pterocalyx          	L	2	3	3											
+colosoi	4	BIGNONIACEAE	Clytostoma	pterocalyx          	L	1	2,5												
+colosoi	5	BIGNONIACEAE	Clytostoma	pterocalyx          	L	3	2,5	2.5	4										
+colosoi	6	BIGNONIACEAE	Clytostoma	pterocalyx          	L	1	2,5												
+colosoi	7	BIGNONIACEAE	Clytostoma	pterocalyx          	L	9	2,5	2.5	3	2.5	2.5	2.5	2.5	3	2.5	3			
+colosoi	10	BIGNONIACEAE	Clytostoma	pterocalyx          	L	1	2,5												
+colosoi	2	BIGNONIACEAE	Cydista	heterophylla           	L	1	5												
+colosoi	3	BIGNONIACEAE	Cydista	heterophylla           	L	1	5												
+colosoi	4	BIGNONIACEAE	Mansoa	verrucifera               	L	1	2,5												
+colosoi	7	BIGNONIACEAE	Stizophyllum	riparium            	L	1	2,5												
+colosoi	1	BIGNONIACEAE	Tabebuia	impetiginosa            		5	2,5	4	3	2.5	5								
+colosoi	3	BIGNONIACEAE	Tabebuia	impetiginosa            		2	5	19											
+colosoi	4	BIGNONIACEAE	Tabebuia	impetiginosa            		2	8	24											
+colosoi	5	BIGNONIACEAE	Tabebuia	impetiginosa            		2	6	2.5											
+colosoi	6	BIGNONIACEAE	Tabebuia	impetiginosa            		1	2,5												
+colosoi	10	BIGNONIACEAE	Tabebuia	impetiginosa            		1	5												
+colosoi	4	BOMBACACEAE	Cavanillesia	platanifolia      		1	71	42											
+colosoi	10	BOMBACACEAE	Cavanillesia	platanifolia      		2	28	18											
+colosoi	3	BOMBACACEAE	Ceiba	pentandra               		1	43												
+colosoi	4	BOMBACACEAE	Pseudobombax	septinatum		1	54												
+colosoi	1	BURSERACEAE	Bursera	simarouba		2	21	29											
+colosoi	1	BUXACEAE	Buxus	citrifolia              		1	5	2.5											
+colosoi	4	BUXACEAE	Buxus	citrifolia              		1	3												
+colosoi	10	BUXACEAE	Buxus	citrifolia              		1	4	4											
+colosoi	1	CACTACEAE	M1	M1	L	1	8												
+colosoi	2	CACTACEAE	M1	M1	L	1	6												
+colosoi	1	CAPPARIDACEAE	Capparis	flexuosa		1	2,5												
+colosoi	7	CAPPARIDACEAE	Capparis	flexuosa		1	5												
+colosoi	8	CAPPARIDACEAE	Capparis	flexuosa		1	6												
+colosoi	7	CAPPARIDACEAE	Capparis	frondosa              		1	3												
+colosoi	8	CAPPARIDACEAE	Capparis	frondosa              		1	4												
+colosoi	9	CAPPARIDACEAE	Capparis	frondosa              		3	6	2.5	2.5										
+colosoi	2	CARICACEAE	Carica	cauliflora              		4	2,5	2.5	6	5									
+colosoi	3	CARICACEAE	Carica	cauliflora              		2	2,5	3											
+colosoi	4	CARICACEAE	Carica	cauliflora              		2	2,5	3											
+colosoi	5	CARICACEAE	Carica	cauliflora              		7	2,5	4	2.5	4	2.5	6	6						
+colosoi	10	CARICACEAE	Carica	cauliflora              		4	2,5	2.5	2.5	3									
+colosoi	3	CECROPIACEAE	Cecropia	M1		1	3												
+colosoi	8	CECROPIACEAE	Cecropia	M1		1	2,5												
+colosoi	9	CELASTRACEAE	Anthodon	decussatum		1	3												
+colosoi	2	CELASTRACEAE	Hemiangium	M1	L	1	2,5												
+colosoi	4	CELASTRACEAE	Hemiangium	M1	L	2	2,5	5											
+colosoi	5	CELASTRACEAE	Hemiangium	M1	L	1	2,5												
+colosoi	1	CELASTRACEAE	Hippocratea	M1	L	1	4												
+colosoi	6	CELASTRACEAE	Hippocratea	M1	L	1	4												
+colosoi	7	CELASTRACEAE	Hippocratea	M1	L	1	13	7											
+colosoi	9	CELASTRACEAE	Hippocratea	M1	L	1	9												
+colosoi	3	CELASTRACEAE	M1	M1	L	1	3												
+colosoi	5	CELASTRACEAE	M1	M1		1	2,5												
+colosoi	8	CELASTRACEAE	Tontelea	M1	L	1	4												
+colosoi	8	COMBRETACEAE	Combretum	fruticosum	L	1	10												
+colosoi	8	COMBRETACEAE	Combretum	laxum	L	1	7												
+colosoi	1	COMBRETACEAE	Combretum	M1	L	1	2,5												
+colosoi	2	COMBRETACEAE	Combretum	M1	L	2	5	2.5											
+colosoi	3	COMBRETACEAE	Combretum	M1	L	1	6												
+colosoi	1	COMBRETACEAE	Combretum	M2	L	1	11												
+colosoi	4	COMBRETACEAE	Combretum	M3	L	1	5												
+colosoi	6	COMBRETACEAE	Terminalia	obovata               		1	14												
+colosoi	9	CONNARACEAE	Rourea	M1	L	1	10												
+colosoi	3	CONVOLVULACEAE	Ipomoea	M1	L	1	5												
+colosoi	9	CONVOLVULACEAE	Ipomoea	M1	L	2	10	16											
+colosoi	8	CUCURBITACEAE	M1	M1	L	1	2,5												
+colosoi	1	DIOSCOREACEAE	Dioscorea	M1	L	2	2,5	2.5											
+colosoi	1	EUPHORBIACEAE	Cnidoscolus	M1		1	5												
+colosoi	2	EUPHORBIACEAE	Drypetes	M1		1	4												
+colosoi	1	EUPHORBIACEAE	Hura	crepitans                   		2	6	8											
+colosoi	8	EUPHORBIACEAE	Hura	crepitans                   		1	49												
+colosoi	1	EUPHORBIACEAE	Phyllanthus	anisolobus           		1	2,5	7											
+colosoi	2	EUPHORBIACEAE	Phyllanthus	anisolobus           		2	2,5	13											
+colosoi	3	EUPHORBIACEAE	Phyllanthus	anisolobus           		1	5												
+colosoi	4	EUPHORBIACEAE	Phyllanthus	anisolobus           		1	2,5												
+colosoi	7	EUPHORBIACEAE	Phyllanthus	anisolobus           		2	2,5	2.5	2.5										
+colosoi	4	FABACEAE	Acacia	riparia                	L	1	2,5												
+colosoi	2	FABACEAE	Coursetia	M1		1	2,5												
+colosoi	1	FABACEAE	Dalbergia	monetaria              	L	1	4												
+colosoi	6	FABACEAE	Dalbergia	monetaria              	L	1	4												
+colosoi	7	FABACEAE	Dalbergia	monetaria              	L	1	3												
+colosoi	8	FABACEAE	Dalbergia	monetaria              	L	1	7												
+colosoi	1	FABACEAE	Hymenaea	M1		1	50												
+colosoi	2	FABACEAE	Hymenaea	M1		1	34												
+colosoi	3	FABACEAE	Hymenaea	M1		1	3												
+colosoi	5	FABACEAE	Hymenaea	M1		1	21												
+colosoi	7	FABACEAE	Hymenaea	M1		2	2,5	12											
+colosoi	1	FABACEAE	Machaerium	M1	L	1	2,5												
+colosoi	6	FABACEAE	Machaerium	M1	L	1	6												
+colosoi	7	FABACEAE	Machaerium	M1	L	1	12												
+colosoi	3	FABACEAE	Peltogyne	purpurea		1	30												
+colosoi	6	FABACEAE	Pithecellobium	M1		1	2,5												
+colosoi	2	FABACEAE	Platymiscium	M1		1	2,5												
+colosoi	3	FABACEAE	Platymiscium	M1		1	22												
+colosoi	4	FABACEAE	Platymiscium	M1		1	3												
+colosoi	6	FABACEAE	Platymiscium	M1		1	6												
+colosoi	2	FABACEAE	Pterocarpus	floribundus          		1	5	4	3										
+colosoi	6	FABACEAE	Pterocarpus	floribundus          		1	2,5												
+colosoi	7	FABACEAE	Pterocarpus	floribundus          		1	2,5												
+colosoi	9	FABACEAE	Pterocarpus	M1		1	6												
+colosoi	1	FLACOURTIACEAE	Casearia	M1		1	7	10											
+colosoi	3	FLACOURTIACEAE	Casearia	M1		1	5												
+colosoi	4	FLACOURTIACEAE	Casearia	M1		1	6												
+colosoi	3	FLACOURTIACEAE	Casearia	M2		1	8												
+colosoi	6	FLACOURTIACEAE	Casearia	M2		1	7												
+colosoi	10	FLACOURTIACEAE	Casearia	M2		3	7	7	6										
+colosoi	7	FLACOURTIACEAE	Casearia	M3		1	6												
+colosoi	9	FLACOURTIACEAE	Casearia	M4		1	5	4											
+colosoi	4	FLACOURTIACEAE	Xylosma	M1		1	13												
+colosoi	1	HERNANDIACEAE	Gyrocarpus	americanus            		1	16												
+colosoi	10	HERNANDIACEAE	Gyrocarpus	americanus            		1	7												
+colosoi	1	MALPIGHIACEAE	Hiraea	reclinata	L	1	4												
+colosoi	1	MELIACEAE	Trichilia	acuminata		1	10												
+colosoi	7	MELIACEAE	Trichilia	acuminata		1	3	13											
+colosoi	8	MELIACEAE	Trichilia	acuminata		4	9	5	2.5	14	9								
+colosoi	9	MELIACEAE	Trichilia	acuminata		5	4	3	5	5	4	4	4						
+colosoi	4	MELIACEAE	Trichilia	M1		1	12	10											
+colosoi	6	MELIACEAE	Trichilia	M2		1	2,5												
+colosoi	7	MELIACEAE	Trichilia	M2		4	3	10	18	15									
+colosoi	8	MELIACEAE	Trichilia	M2		2	5	5											
+colosoi	9	MELIACEAE	Trichilia	M2		1	15												
+colosoi	10	MELIACEAE	Trichilia	M2		1	4												
+colosoi	1	MORACEAE	Brosimum	alicastrum           	 	1	10												
+colosoi	2	MORACEAE	Brosimum	alicastrum           		2	4	18											
+colosoi	5	MORACEAE	Brosimum	alicastrum           		1	4												
+colosoi	10	MORACEAE	Brosimum	alicastrum           		1	6												
+colosoi	7	MORACEAE	Brosimum	guianensis           		1	26												
+colosoi	8	MORACEAE	Brosimum	guianensis           		1	2,5												
+colosoi	2	MORACEAE	Ficus	citrifolia                      		1	46												
+colosoi	5	MORACEAE	Ficus	citrifolia                      	L	1	55	2.5	15	41									
+colosoi	3	MORACEAE	Sorocea	M1		1	2,5												
+colosoi	5	MORACEAE	Sorocea	M1		1	4												
+colosoi	7	MORACEAE	Sorocea	M1		1	2,5												
+colosoi	9	MYRTACEAE	M1	M1		2	3	4											
+colosoi	3	NYCTAGINACEAE	Neea	M1		1	19												
+colosoi	3	NYCTAGINACEAE	Neea	M2		1	6												
+colosoi	5	NYCTAGINACEAE	Neea	M2		1	10	9											
+colosoi	7	NYCTAGINACEAE	Neea	M2		1	10												
+colosoi	10	NYCTAGINACEAE	Neea	M2		1	2,5												
+colosoi	1	OCHNACEAE	Ouratea	M1		1	2,5												
+colosoi	3	OLACACEAE	Heisteria	M1		1	35												
+colosoi	4	OLACACEAE	Heisteria	M1		1	7												
+colosoi	2	POLYGONACEAE	Triplaris	M1		1	6												
+colosoi	8	POLYGONACEAE	Triplaris	M1		1	3	12											
+colosoi	9	RHAMNACEAE	Gouania	M1	L	1	2,5												
+colosoi	2	RUBIACEAE	Chiococca	alba                	L	1	3												
+colosoi	4	RUBIACEAE	Chiococca	alba                	L	1	3												
+colosoi	5	RUBIACEAE	Chiococca	alba                	L	2	2,5	2.5											
+colosoi	8	RUBIACEAE	Chiococca	alba                	L	1	2,5												
+colosoi	2	RUBIACEAE	Simira	cordifolia		1	16	3											
+colosoi	3	RUBIACEAE	Simira	cordifolia		2	2,5	2.5											
+colosoi	4	RUBIACEAE	Simira	cordifolia		2	11	3											
+colosoi	5	RUBIACEAE	Simira	cordifolia		1	3												
+colosoi	6	RUBIACEAE	Simira	cordifolia		1	6												
+colosoi	7	RUBIACEAE	Simira	cordifolia		3	3	7	10	3									
+colosoi	9	RUBIACEAE	Simira	cordifolia		1	11												
+colosoi	2	RUTACEAE	M1	M1		1	2,5												
+colosoi	2	RUTACEAE	Pilocarpus	M1		1	5												
+colosoi	3	RUTACEAE	Pilocarpus	M1		1	11												
+colosoi	6	RUTACEAE	Pilocarpus	M1		1	9	4											
+colosoi	7	SAPINDACEAE	Sapindus	M1		1	4												
+colosoi	6	SAPINDACEAE	Serjania	M1	L	1	2,5												
+colosoi	7	SAPINDACEAE	Serjania	M2	L	1	3												
+colosoi	4	SAPINDACEAE	Talisia	M1		1	6												
+colosoi	7	SAPINDACEAE	Talisia	M1		1	2,5												
+colosoi	4	SAPINDACEAE	Talisia	M2		2	6	3											
+colosoi	8	SAPINDACEAE	Talisia	M2		1	2,5												
+colosoi	10	SAPINDACEAE	Talisia	M2		1	8												
+colosoi	1	SAPINDACEAE	Thinouia	myriantha               	L	1	2,5												
+colosoi	9	SAPINDACEAE	Thinouia	myriantha               	L	1	5												
+colosoi	6	SAPOTACEAE	Chrysophyllum	M1		1	14												
+colosoi	7	SAPOTACEAE	M1	M1		1	3												
+colosoi	8	SAPOTACEAE	Manilkara	M1		1	4												
+colosoi	1	SAPOTACEAE	Pouteria	M1		1	14												
+colosoi	5	SAPOTACEAE	Pouteria	M2		1	25												
+colosoi	2	STERCULIACEAE	Guazuma	ulmifolia                		1	8												
+colosoi	3	STERCULIACEAE	Guazuma	ulmifolia                		1	8												
+colosoi	2	TILIACEAE	Apeiba	tibourbou              		1	12												
+colosoi	3	TILIACEAE	Apeiba	tibourbou              		1	10												
+colosoi	4	TRIGONIACEAE	Trigonia	M1	L	1	2,5												
+colosoi	7	TRIGONIACEAE	Trigonia	M1	L	1	2,5												
+colosoi	8	ULMACEAE	Celtis	M1		1	15	15											
+colosoi	9	ULMACEAE	Celtis	M1		1	11												
+colosoi	2	ULMACEAE	Trema	micrantha                  		1	2,5												
+colosoi	5	URTICACEAE	Urera	baccifera          		1	2,5												
+colosoi	9	URTICACEAE	Urera	baccifera          		1	4												
+colosoi	10	URTICACEAE	Urera	baccifera          		1	2,5												
+colosoi	9	URTICACEAE	Urera	caracasana         		1	3												
+colosoi	6	VERBENACEAE	Aegiphila	M1		1	2,5												
+colosoi	4	VERBENACEAE	Vitex	M1		1	4												
+colosoi	10	VERBENACEAE	Vitex	M1		1	5	3											
+colosoi	2	VIOLACEAE	Hybanthus	prunifolius		1	2,5												
+colosoi	1	VITACEAE	Cissus	M1	L	1	2,5												
+colosoi	2	VITACEAE	Cissus	M1	L	2	3	4											
+colosoi	3	VITACEAE	Cissus	M1		2	2,5	2.5											
+colosoi	4	VITACEAE	Cissus	M1	L	1	2,5												
+colosoi	8	VITACEAE	Cissus	M1		1	2,5												
+colosoi	9	VITACEAE	Cissus	M1	L	2	2,5	3											

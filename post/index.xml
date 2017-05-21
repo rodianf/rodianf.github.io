@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Post-rsses on Rodian Fonseca</title>
+    <link>http://rodian.co/post/index.xml</link>
+    <description>Recent content in Post-rsses on Rodian Fonseca</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-co</language>
+    <copyright>&lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by/4.0/&#34;&gt;&lt;img alt=&#34;Licencia Creative Commons&#34; style=&#34;border-width:0&#34; src=&#34;https://i.creativecommons.org/l/by/4.0/80x15.png&#34; /&gt;&lt;/a&gt; Rodian Fonseca Campuzano. &lt;br&gt;</copyright>
+    <lastBuildDate>Wed, 21 Dec 2016 17:51:41 -0500</lastBuildDate>
+    <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Arrancando</title>
+      <link>http://rodian.co/2016/12/21/arrancando</link>
+      <pubDate>Wed, 21 Dec 2016 17:51:41 -0500</pubDate>
+      
+      <guid>http://rodian.co/2016/12/21/arrancando</guid>
+      <description>&lt;p&gt;&lt;a data-flickr-embed=&#34;true&#34;  href=&#34;https://www.flickr.com/photos/rodianfc/18574498623/in/dateposted-public/&#34; title=&#34;Chalupa&#34;&gt;&lt;img src=&#34;https://c8.staticflickr.com/1/358/18574498623_41f55fa367_b.jpg&#34; width=&#34;1024&#34; height=&#34;683&#34; alt=&#34;Chalupa&#34;&gt;&lt;/a&gt;&lt;script async src=&#34;//embedr.flickr.com/assets/client-code.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

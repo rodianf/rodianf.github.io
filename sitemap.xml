@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>http://rodian.co/</loc>
+    <lastmod>2016-12-21T17:51:41-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://rodian.co/2016/12/21/arrancando</loc>
+    <lastmod>2016-12-21T17:51:41-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://rodian.co/home/home/</loc>
+  </url>
+  
+  <url>
+    <loc>http://rodian.co/home/posts/</loc>
+    <lastmod>2016-04-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://rodian.co/home/biografia/</loc>
+    <lastmod>2016-04-20T00:00:00+00:00</lastmod>
+  </url>
+  
+</urlset>

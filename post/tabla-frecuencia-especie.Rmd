@@ -1,0 +1,84 @@
+---
+title: "Tabla de frecuencias de especies"
+draft: yes
+date: '2016-12-26T12:34:59-05:00'
+math: yes
+tags:
+- Análisis de datos
+- Ecología
+- R
+image: ''
+output: 
+  html_document: 
+    theme: cerulean
+---
+
+```{r setup, eval=FALSE}
+knitr::opts_chunk$set(
+	eval = FALSE,
+	error = FALSE,
+	message = FALSE,
+	warning = FALSE,
+	include = FALSE
+)
+
+library(dplyr)
+library(reshape2)
+library(ggplot2)
+library(tidyr)
+library(knitr)
+
+# Carga de datos
+datos <- read_delim("~/webpersonal/content/post/data/datos-gentry.csv", "\t", escape_double = FALSE)
+
+# Muestra
+#datos %>%
+#  select(-starts_with("STEMDBH")) %>% # Omitir columnas de dbh
+#  head()
+
+
+# Tabla de abundacias relativas ----
+datos.ind <- datos %>% 
+  select(-starts_with("STEMDBH")) %>% # Omite columnas de dbh
+  #filter(Transect == "tayrona") %>% # Filtra el transecto determinado
+  unite(Gen.spe, Genus, species, sep = " ") %>% # Une o concatena las columnas género y especie
+  group_by(Transect, Gen.spe) %>% # Agrupa por transecto y especie
+  summarise(Ind = sum(`N(IND)`)) %>%  # Suma el número de individuos por transecto y especie
+  mutate(Abu.rel = Ind / sum(Ind)) %>% # Calcula la abundancia relativa
+  arrange(desc(Ind)) %>% # Ordena descendente según individuos
+  rename(Transecto = Transect, 
+         Especie = Gen.spe, 
+         Individuos = Ind, 
+         `Abundancia relativa` = Abu.rel)
+  
+
+# Tabla de dbh
+datos.dbh <- datos %>% 
+  select(-`N(IND)`, -Line) %>% 
+  unite(Gen.spe, Genus, species, sep = " ") %>%
+  group_by(Transect, Gen.spe) %>% 
+  melt(na.rm = TRUE, id=c("Transect", "Gen.spe"), measure.vars=5:17, value.name = "DBH") %>% 
+  select(-variable) %>% 
+  mutate(ABcm = (pi/4)*DBH^2,
+         ABm = (pi/(4*(10000)))*DBH^2) %>% 
+  rename(Transecto = Transect,
+         Especie = Gen.spe)
+
+```
+```{r}
+# Diagrama de barras
+# datos.ind <- datos.ind %>% 
+#   group_by(Transecto, Especie) %>% 
+#   arrange(desc(Individuos)) #%>% 
+# 
+# ggplot(datos.ind, aes(x = Especie, y = Individuos)) %>% 
+#   geom_line(group = 1) +
+#   coord_flip() +
+#   facet_grid(Transecto ~ ., scales = "free_y")
+# 
+# ggplot(datos.ind, aes(x = Especie, y = arrange(desc(Individuos)))) +
+#   geom_line(group = 1) +
+#   coord_flip() +
+#   facet_grid(Transecto ~ ., scales = "free_y")
+```
+

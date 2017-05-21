@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="es-co">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="theme" content="hugo-academic">
+  <meta name="generator" content="Hugo 0.17" />
+  <meta name="author" content="Rodian Fonseca Campuzano">
+  <meta name="description" content="Biología y Estadística Aplicada">
+
+  <link rel="stylesheet" href="../../../../css/highlight.min.css">
+  <link rel="stylesheet" href="../../../../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../../../../css/font-awesome.min.css">
+  <link rel="stylesheet" href="../../../../css/academicons.min.css">
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:400,700|Merriweather|Roboto+Mono">
+  <link rel="stylesheet" href="../../../../css/hugo-academic.css">
+  
+
+  <link rel="alternate" href="http://rodian.co/index.xml" type="application/rss+xml" title="Rodian Fonseca">
+  <link rel="feed" href="http://rodian.co/index.xml" type="application/rss+xml" title="Rodian Fonseca">
+
+  <link rel="icon" type="image/png" href="../../../../img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="../../../../img/apple-touch-icon.png">
+
+  <link rel="canonical" href="http://rodian.co/2016/12/21/tablas-de-frecuencia-con-r">
+
+  
+
+  <title>Tablas de frecuencia con R | Rodian Fonseca</title>
+
+
+
+
+
+
+
+</head>
+<body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+              data-target=".navbar-collapse" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="../../../../">Rodian Fonseca</a>
+    </div>
+
+    
+    <div class="collapse navbar-collapse">
+
+      
+      <ul class="nav navbar-nav navbar-right">
+        
+        <li class="nav-item">
+          <a href="../../../../#home">
+            Inicio
+          </a>
+        </li>
+        
+        <li class="nav-item">
+          <a href="../../../../#posts">
+            Blog
+          </a>
+        </li>
+        
+        <li class="nav-item">
+          <a href="../../../../#biografia">
+            Biografía
+          </a>
+        </li>
+        
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+<div class="container">
+
+  <article class="article" itemscope itemtype="http://schema.org/Article">
+
+    
+
+    <h1 itemprop="name">Tablas de frecuencia con R</h1>
+
+    
+
+<div class="article-metadata">
+
+  <span class="article-date">
+    <time datetime="2016-12-21 18:38:25 -0500 EST" itemprop="datePublished">
+      Wed, Dec 21, 2016
+    </time>
+  </span>
+
+  
+
+  
+  
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u=http%3a%2f%2frodian.co%2f2016%2f12%2f21%2ftablas-de-frecuencia-con-r"
+         target="_blank">
+        <i class="fa fa-facebook"></i>
+      </a>
+    </li>
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=Tablas%20de%20frecuencia%20con%20R&amp;url=http%3a%2f%2frodian.co%2f2016%2f12%2f21%2ftablas-de-frecuencia-con-r"
+         target="_blank">
+        <i class="fa fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http%3a%2f%2frodian.co%2f2016%2f12%2f21%2ftablas-de-frecuencia-con-r&amp;title=Tablas%20de%20frecuencia%20con%20R"
+         target="_blank">
+        <i class="fa fa-linkedin"></i>
+      </a>
+    </li>
+    <li>
+      <a class="weibo"
+         href="http://service.weibo.com/share/share.php?url=http%3a%2f%2frodian.co%2f2016%2f12%2f21%2ftablas-de-frecuencia-con-r&amp;title=Tablas%20de%20frecuencia%20con%20R"
+         target="_blank">
+        <i class="fa fa-weibo"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=Tablas%20de%20frecuencia%20con%20R&amp;body=http%3a%2f%2frodian.co%2f2016%2f12%2f21%2ftablas-de-frecuencia-con-r">
+        <i class="fa fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+
+    <div class="article-style" itemprop="articleBody">
+
+
+<p>Las tablas de distribución de frecuencias constituyen un método descriptivo que nos permite comprender la distribución de una variable cualitativa o cuantitativa según categorías o intervalos de clase que las componen. En R es posible construir tablas de frecuencia utilizando los paquetes <code>dplyr</code> y <code>reshape2</code> de forma relativamente fácil.</p>
+<p>En ecología de comunidades es común trabajar con tablas de especies donde las filas contienen los datos de cada individuo registrado en campo y las variables (parcela, especie, área basal) se disponen como columnas. En el siguiente ejemplo se utilizará el marco de datos publicado por <span class="citation">Franklin et al. (2015)</span>, que contiene información acerca del <em>diámetro a la altura del pecho DAP</em> y el <em>área basal</em> de árboles con DAP ≥ 5 cm en parcelas circulares de 10 m de radio, localizadas en parches de bosque seco tropical, en las islas de Abaco y Eleuthera en Las Bahamas.</p>
+<table>
+<thead>
+<tr class="header">
+<th align="right">OrderEntry</th>
+<th align="left">PlotID</th>
+<th align="left">Date</th>
+<th align="left">Island</th>
+<th align="left">PlotName</th>
+<th align="left">Species</th>
+<th align="right">dbh_cm</th>
+<th align="right">ba_cm2</th>
+<th align="right">ba_m2</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="right">1</td>
+<td align="left">A01</td>
+<td align="left">5/9/09</td>
+<td align="left">Abaco</td>
+<td align="left">Ab8MC02DBH</td>
+<td align="left">Acacia choriophylla</td>
+<td align="right">14.9</td>
+<td align="right">174.36610</td>
+<td align="right">0.0174366</td>
+</tr>
+<tr class="even">
+<td align="right">2</td>
+<td align="left">A01</td>
+<td align="left">5/9/09</td>
+<td align="left">Abaco</td>
+<td align="left">Ab8MC02DBH</td>
+<td align="left">Acacia choriophylla</td>
+<td align="right">7.8</td>
+<td align="right">47.78358</td>
+<td align="right">0.0047784</td>
+</tr>
+<tr class="odd">
+<td align="right">3</td>
+<td align="left">A01</td>
+<td align="left">5/9/09</td>
+<td align="left">Abaco</td>
+<td align="left">Ab8MC02DBH</td>
+<td align="left">Acacia choriophylla</td>
+<td align="right">12.2</td>
+<td align="right">116.89856</td>
+<td align="right">0.0116899</td>
+</tr>
+<tr class="even">
+<td align="right">4</td>
+<td align="left">A01</td>
+<td align="left">5/9/09</td>
+<td align="left">Abaco</td>
+<td align="left">Ab8MC02DBH</td>
+<td align="left">Bourreria ovata</td>
+<td align="right">15.1</td>
+<td align="right">179.07848</td>
+<td align="right">0.0179078</td>
+</tr>
+<tr class="odd">
+<td align="right">5</td>
+<td align="left">A01</td>
+<td align="left">5/9/09</td>
+<td align="left">Abaco</td>
+<td align="left">Ab8MC02DBH</td>
+<td align="left">Bourreria ovata</td>
+<td align="right">6.3</td>
+<td align="right">31.17243</td>
+<td align="right">0.0031172</td>
+</tr>
+<tr class="even">
+<td align="right">6</td>
+<td align="left">A01</td>
+<td align="left">5/9/09</td>
+<td align="left">Abaco</td>
+<td align="left">Ab8MC02DBH</td>
+<td align="left">Bourreria ovata</td>
+<td align="right">6.6</td>
+<td align="right">34.21192</td>
+<td align="right">0.0034212</td>
+</tr>
+</tbody>
+</table>
+<div id="tabla-de-abundancia" class="section level1">
+<h1>Tabla de abundancia</h1>
+<p>Las tablas de abundancia son tablas de frecuencia donde cada categoría representa una especie y su frecuencia se calcula a partir del número de registros en el marco de datos.</p>
+<pre class="r"><code># Cargar paquetes
+library(dplyr)
+library(reshape2)
+
+
+
+tabla &lt;- datos %&gt;%
+  group_by(Species) %&gt;%
+  mutate(Frecuencia_relativa = n()/sum(n())) %&gt;% 
+  dcast(Species ~ Island)
+
+kable(tabla)</code></pre>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Species</th>
+<th align="right">Abaco</th>
+<th align="right">Eleuthera</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Acacia choriophylla</td>
+<td align="right">3</td>
+<td align="right">0</td>
+</tr>
+<tr class="even">
+<td align="left">Bourreria ovata</td>
+<td align="right">3</td>
+<td align="right">0</td>
+</tr>
+<tr class="odd">
+<td align="left">Bursera simaruba</td>
+<td align="right">0</td>
+<td align="right">10</td>
+</tr>
+<tr class="even">
+<td align="left">Coccoloba diversifolia</td>
+<td align="right">26</td>
+<td align="right">27</td>
+</tr>
+<tr class="odd">
+<td align="left">Eugenia axillaris</td>
+<td align="right">1</td>
+<td align="right">5</td>
+</tr>
+<tr class="even">
+<td align="left">Eugenia rhombea</td>
+<td align="right">0</td>
+<td align="right">2</td>
+</tr>
+<tr class="odd">
+<td align="left">Exothea paniculata</td>
+<td align="right">11</td>
+<td align="right">7</td>
+</tr>
+<tr class="even">
+<td align="left">Guapira obtusata</td>
+<td align="right">1</td>
+<td align="right">13</td>
+</tr>
+<tr class="odd">
+<td align="left">Mastichodendron foetidissimum</td>
+<td align="right">24</td>
+<td align="right">3</td>
+</tr>
+<tr class="even">
+<td align="left">Metopium toxiferum</td>
+<td align="right">8</td>
+<td align="right">2</td>
+</tr>
+<tr class="odd">
+<td align="left">Persea palustris</td>
+<td align="right">2</td>
+<td align="right">0</td>
+</tr>
+<tr class="even">
+<td align="left">Piscidia piscipula</td>
+<td align="right">0</td>
+<td align="right">3</td>
+</tr>
+<tr class="odd">
+<td align="left">Simarouba glauca</td>
+<td align="right">1</td>
+<td align="right">0</td>
+</tr>
+<tr class="even">
+<td align="left">Swietenia mahagoni</td>
+<td align="right">6</td>
+<td align="right">0</td>
+</tr>
+</tbody>
+</table>
+<div id="refs" class="references">
+<div id="ref-Franklin2015">
+<p>Franklin, J, J Ripplinger, EH Freid, H Marcano-Vega, and DW Steadman. 2015. “Data from: Regional Variation in Caribbean Dry Forest Tree Species Composition.” <em>Plant Ecology</em>. Dryad Digital Repository. doi:<a href="https://doi.org/doi:10.5061/dryad.2r5r9">doi:10.5061/dryad.2r5r9</a>.</p>
+</div>
+</div>
+</div>
+
+
+
+
+    </div>
+
+  </article>
+
+  <nav>
+  <ul class="pager">
+    
+    <li class="previous"><a href="http://rodian.co/2016/12/21/arrancando"><span
+      aria-hidden="true">&larr;</span> Arrancando</a></li>
+    
+
+    
+  </ul>
+</nav>
+
+  
+<section id="comments">
+  <div id="disqus_thread">
+    <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'shortname';
+    var disqus_identifier = 'http:\/\/rodian.co\/2016\/12\/21\/tablas-de-frecuencia-con-r';
+    var disqus_title = 'Tablas de frecuencia con R';
+    var disqus_url = 'http:\/\/rodian.co\/2016\/12\/21\/tablas-de-frecuencia-con-r';
+
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+  </div>
+</section>
+
+
+
+</div>
+<footer class="site-footer">
+  <div class="container">
+    <p class="powered-by">
+
+      <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Licencia Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a> <br> Rodian Fonseca Campuzano. <br> 
+
+      Powered by the <a href="https://github.com/gcushen/hugo-academic" target="_blank">Academic
+      theme</a> for <a href="http://gohugo.io" target="_blank">Hugo</a>.
+      
+      
+      <span class="pull-right" aria-hidden="true">
+        <a href="#" id="back_to_top">
+          <span class="button_icon">
+            <i class="fa fa-chevron-up fa-2x"></i>
+          </span>
+        </a>
+      </span>
+
+    </p>
+  </div>
+</footer>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.18.4/TweenMax.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/ScrollToPlugin.min.js"></script>
+    <script src="../../../../js/jquery-1.12.3.min.js"></script>
+    <script src="../../../../js/bootstrap.min.js"></script>
+    <script src="../../../../js/isotope.pkgd.min.js"></script>
+    <script src="../../../../js/hugo-academic.js"></script>
+    
+
+    
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-88711168-1', 'auto');
+        ga('send', 'pageview');
+
+         
+        var links = document.querySelectorAll('a');
+        Array.prototype.map.call(links, function(item) {
+            if (item.host != document.location.host) {
+                item.addEventListener('click', function() {
+                    var action = item.getAttribute('data-action') || 'follow';
+                    ga('send', 'event', 'outbound', action, item.href);
+                });
+            }
+        });
+    </script>
+    
+
+    
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.3.0/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+
+    
+    
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ['\\(','\\)']] } });
+    </script>
+    <script async src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_CHTML"></script>
+    
+
+  </body>
+</html>
+
