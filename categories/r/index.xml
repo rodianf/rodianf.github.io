@@ -44,71 +44,71 @@ tab_freq(estatura) %&amp;gt;%
 &lt;tbody&gt;
 &lt;tr class=&#34;odd&#34;&gt;
 &lt;td align=&#34;left&#34;&gt;[130, 135)&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;2&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;0.0250&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;2&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;0.0250&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;1&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.0125&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;1&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.0125&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;even&#34;&gt;
 &lt;td align=&#34;left&#34;&gt;[140, 145)&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;6&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;0.0750&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;8&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;0.1000&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;3&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.0375&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;4&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.0500&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;odd&#34;&gt;
 &lt;td align=&#34;left&#34;&gt;[145, 150)&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;11&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;0.1375&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;19&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;0.2375&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;10&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.1250&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;14&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.1750&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;even&#34;&gt;
 &lt;td align=&#34;left&#34;&gt;[150, 155)&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;5&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;0.0625&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;24&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;0.3000&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;15&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.1875&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;29&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.3625&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;odd&#34;&gt;
 &lt;td align=&#34;left&#34;&gt;[155, 160)&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;14&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;0.1750&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;38&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;0.4750&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;13&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.1625&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;42&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.5250&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;even&#34;&gt;
 &lt;td align=&#34;left&#34;&gt;[160, 165)&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;16&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;0.2000&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;54&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;0.6750&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;15&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.1875&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;57&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.7125&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;odd&#34;&gt;
 &lt;td align=&#34;left&#34;&gt;[165, 170)&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;15&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;0.1875&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;69&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;0.8625&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;6&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.0750&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;63&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.7875&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;even&#34;&gt;
 &lt;td align=&#34;left&#34;&gt;[170, 175)&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;7&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;0.0875&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;76&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;0.9500&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;11&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.1375&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;74&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.9250&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;odd&#34;&gt;
 &lt;td align=&#34;left&#34;&gt;[175, 180)&lt;/td&gt;
 &lt;td align=&#34;right&#34;&gt;3&lt;/td&gt;
 &lt;td align=&#34;right&#34;&gt;0.0375&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;79&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;0.9875&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;77&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.9625&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;even&#34;&gt;
 &lt;td align=&#34;left&#34;&gt;[180, 185]&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;1&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;0.0125&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;3&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.0375&lt;/td&gt;
 &lt;td align=&#34;right&#34;&gt;80&lt;/td&gt;
 &lt;td align=&#34;right&#34;&gt;1.0000&lt;/td&gt;
 &lt;/tr&gt;
@@ -124,13 +124,13 @@ summary(comparacion)&lt;/code&gt;&lt;/pre&gt;
 ## 
 ##    method nclasses
 ## 1 Sturges        8
-## 2      FD        7
+## 2      FD        8
 ## 3   scott        6
 ## 
 ## Summary of input vector:
 ## 
 ##    Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
-##   133.6   151.0   160.9   159.3   166.9   181.3&lt;/code&gt;&lt;/pre&gt;
+##   134.1   152.1   158.9   159.8   166.5   184.3&lt;/code&gt;&lt;/pre&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;ggplot(comparacion)&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;&lt;img src=&#34;../../post/histogramR_files/figure-html/unnamed-chunk-3-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 </description>
