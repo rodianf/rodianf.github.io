@@ -24,11 +24,11 @@
   <link rel="icon" type="image/png" href="../../../../img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="../../../../img/apple-touch-icon.png">
 
-  <link rel="canonical" href="http://rodian.co/2016/12/21/arrancando/">
+  <link rel="canonical" href="http://rodian.co/1/01/01/histogramr/">
 
   
 
-  <title>Arrancando | Rodian Fonseca</title>
+  <title>histogramR | Rodian Fonseca</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
@@ -84,15 +84,15 @@
 
     
 
-    <h1 itemprop="name">Arrancando</h1>
+    <h1 itemprop="name">histogramR</h1>
 
     
 
 <div class="article-metadata">
 
   <span class="article-date">
-    <time datetime="2016-12-21 17:51:41 -0500 EST" itemprop="datePublished">
-      Wed, Dec 21, 2016
+    <time datetime="0001-01-01 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+      Mon, Jan 1, 0001
     </time>
   </span>
 
@@ -104,35 +104,35 @@
   <ul class="share">
     <li>
       <a class="facebook"
-         href="https://www.facebook.com/sharer.php?u=http%3a%2f%2frodian.co%2f2016%2f12%2f21%2farrancando%2f"
+         href="https://www.facebook.com/sharer.php?u=http%3a%2f%2frodian.co%2f1%2f01%2f01%2fhistogramr%2f"
          target="_blank">
         <i class="fa fa-facebook"></i>
       </a>
     </li>
     <li>
       <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=Arrancando&amp;url=http%3a%2f%2frodian.co%2f2016%2f12%2f21%2farrancando%2f"
+         href="https://twitter.com/intent/tweet?text=histogramR&amp;url=http%3a%2f%2frodian.co%2f1%2f01%2f01%2fhistogramr%2f"
          target="_blank">
         <i class="fa fa-twitter"></i>
       </a>
     </li>
     <li>
       <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http%3a%2f%2frodian.co%2f2016%2f12%2f21%2farrancando%2f&amp;title=Arrancando"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http%3a%2f%2frodian.co%2f1%2f01%2f01%2fhistogramr%2f&amp;title=histogramR"
          target="_blank">
         <i class="fa fa-linkedin"></i>
       </a>
     </li>
     <li>
       <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=http%3a%2f%2frodian.co%2f2016%2f12%2f21%2farrancando%2f&amp;title=Arrancando"
+         href="http://service.weibo.com/share/share.php?url=http%3a%2f%2frodian.co%2f1%2f01%2f01%2fhistogramr%2f&amp;title=histogramR"
          target="_blank">
         <i class="fa fa-weibo"></i>
       </a>
     </li>
     <li>
       <a class="email"
-         href="mailto:?subject=Arrancando&amp;body=http%3a%2f%2frodian.co%2f2016%2f12%2f21%2farrancando%2f">
+         href="mailto:?subject=histogramR&amp;body=http%3a%2f%2frodian.co%2f1%2f01%2f01%2fhistogramr%2f">
         <i class="fa fa-envelope"></i>
       </a>
     </li>
@@ -146,7 +146,123 @@
 
 
     <div class="article-style" itemprop="articleBody">
-      <p><a data-flickr-embed="true"  href="https://www.flickr.com/photos/rodianfc/18574498623/in/dateposted-public/" title="Chalupa"><img src="https://c8.staticflickr.com/1/358/18574498623_41f55fa367_b.jpg" width="1024" height="683" alt="Chalupa"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script></p>
+      <p>En el módulo de estadística computacional de la maestría en Estadística Aplicada de la Universidad del Norte, tuve la oportunidad de desarrollar un paquete para R que produce tablas de distribución de frecuencias, histogramas y polígonos de frecuencia con <code>dplyr</code> y <code>ggplot2</code>. Utilizar estos paquetes permiten gran versatilidad en las salidas de las funciones, por ejemplo, usar tuberías (<em>pipes</em>) para hacer modificaciones en los marcos de datos cuando se producen tablas de frecuencias o capas de <code>ggplot2</code> para las gráficas.</p>
+<p>Debido a que el paquete es producto de una actividad académica y no de una necesidad personal, los resultados que genera son relativamente triviales a lo que un usuario de R pueda necesitar; por lo tanto, no dejará de ser un ejercicio para mejorar el desarrollo de paquetes para R. Sin embargo, en caso de resultar útil de alguna forma, cualquier tipo de <em>freedback</em> será bienvenido.</p>
+<p>El paquete <code>histogramR</code> se puede descargar desde el siguiente repositorio de Github <a href="https://github.com/rodianf/histogramR" class="uri">https://github.com/rodianf/histogramR</a>. Las instrucciones de instalación y algunos ejemplos también se pueden consultar desde el documento <em>Readme</em> del repositorio. El camino a seguir será mejorar la eficiencia de las funciones y seguir aprendiendo en el proceso.</p>
+<p>A continuación algunos ejemplos de lo que <code>histogramR</code> puede hacer.</p>
+<pre class="r"><code>library(histogramR)
+library(knitr)
+
+estatura &lt;- rnorm(80, 160, 10)
+
+tab_freq(estatura) %&gt;% 
+  rename(Frecuencia = f,
+         &quot;Frecuencia relativa&quot; = rf,
+         &quot;Frecuencia acumulada&quot; = cf,
+         &quot;Frecuencia relativa acumulada&quot; = crf) %&gt;% 
+  kable()</code></pre>
+<table>
+<thead>
+<tr class="header">
+<th align="left">estatura</th>
+<th align="right">Frecuencia</th>
+<th align="right">Frecuencia relativa</th>
+<th align="right">Frecuencia acumulada</th>
+<th align="right">Frecuencia relativa acumulada</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">[140, 145)</td>
+<td align="right">3</td>
+<td align="right">0.0375</td>
+<td align="right">3</td>
+<td align="right">0.0375</td>
+</tr>
+<tr class="even">
+<td align="left">[145, 150)</td>
+<td align="right">7</td>
+<td align="right">0.0875</td>
+<td align="right">10</td>
+<td align="right">0.1250</td>
+</tr>
+<tr class="odd">
+<td align="left">[150, 155)</td>
+<td align="right">13</td>
+<td align="right">0.1625</td>
+<td align="right">23</td>
+<td align="right">0.2875</td>
+</tr>
+<tr class="even">
+<td align="left">[155, 160)</td>
+<td align="right">14</td>
+<td align="right">0.1750</td>
+<td align="right">37</td>
+<td align="right">0.4625</td>
+</tr>
+<tr class="odd">
+<td align="left">[160, 165)</td>
+<td align="right">17</td>
+<td align="right">0.2125</td>
+<td align="right">54</td>
+<td align="right">0.6750</td>
+</tr>
+<tr class="even">
+<td align="left">[165, 170)</td>
+<td align="right">9</td>
+<td align="right">0.1125</td>
+<td align="right">63</td>
+<td align="right">0.7875</td>
+</tr>
+<tr class="odd">
+<td align="left">[170, 175)</td>
+<td align="right">9</td>
+<td align="right">0.1125</td>
+<td align="right">72</td>
+<td align="right">0.9000</td>
+</tr>
+<tr class="even">
+<td align="left">[175, 180)</td>
+<td align="right">3</td>
+<td align="right">0.0375</td>
+<td align="right">75</td>
+<td align="right">0.9375</td>
+</tr>
+<tr class="odd">
+<td align="left">[180, 185)</td>
+<td align="right">2</td>
+<td align="right">0.0250</td>
+<td align="right">77</td>
+<td align="right">0.9625</td>
+</tr>
+<tr class="even">
+<td align="left">[185, 190]</td>
+<td align="right">3</td>
+<td align="right">0.0375</td>
+<td align="right">80</td>
+<td align="right">1.0000</td>
+</tr>
+</tbody>
+</table>
+<pre class="r"><code>plot_freq(estatura, nclass = &quot;FD&quot;)
+plot_freq(estatura, nclass = &quot;FD&quot;, density = TRUE, cfp = TRUE)</code></pre>
+<p><img src="../../../../post/histogramR_files/figure-html/unnamed-chunk-2-1.png" width="30%" style="display: block; margin: auto;" /><img src="../../../../post/histogramR_files/figure-html/unnamed-chunk-2-2.png" width="30%" style="display: block; margin: auto;" /></p>
+<pre class="r"><code>comparacion &lt;- nc_comp(estatura)
+
+summary(comparacion)</code></pre>
+<pre><code>## Class number methods comparison.
+## 
+##    method nclasses
+## 1 Sturges        8
+## 2      FD        8
+## 3   scott        6
+## 
+## Summary of input vector:
+## 
+##    Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+##   143.4   154.4   161.4   161.8   168.2   189.9</code></pre>
+<pre class="r"><code>ggplot(comparacion)</code></pre>
+<p><img src="../../../../post/histogramR_files/figure-html/unnamed-chunk-3-1.png" width="672" /></p>
 
     </div>
 
@@ -157,7 +273,7 @@
     
 
     
-    <li class="next"><a href="http://rodian.co/2018/05/09/histogramr/">histogramR <span
+    <li class="next"><a href="http://rodian.co/2016/12/21/arrancando/">Arrancando <span
       aria-hidden="true">&rarr;</span></a></li>
     
   </ul>

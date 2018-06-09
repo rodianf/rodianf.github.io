@@ -1,0 +1,46 @@
+---
+title: "histogramR"
+date: 2018-05-09T17:21:39-05:00
+categories:
+  - "R"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+En el módulo de estadística computacional de la maestría en Estadística Aplicada de la Universidad del Norte, tuve la oportunidad de desarrollar un paquete para R que produce tablas de distribución de frecuencias, histogramas y polígonos de frecuencia con `dplyr` y `ggplot2`. Utilizar estos paquetes permiten gran versatilidad en las salidas de las funciones, por ejemplo, usar tuberías (_pipes_) para hacer modificaciones en los marcos de datos cuando se producen tablas de frecuencias o capas de `ggplot2` para las gráficas.
+
+Debido a que el paquete es producto de una actividad académica y no de una necesidad personal, los resultados que genera son relativamente triviales a lo que un usuario de R pueda necesitar; por lo tanto, no dejará de ser un ejercicio para mejorar el desarrollo de paquetes para R. Sin embargo, en caso de resultar útil de alguna forma, cualquier tipo de _freedback_ será bienvenido.
+
+El paquete `histogramR` se puede descargar desde el siguiente repositorio de Github https://github.com/rodianf/histogramR. Las instrucciones de instalación y algunos ejemplos también se pueden consultar desde el documento _Readme_ del repositorio. El camino a seguir será mejorar la eficiencia de las funciones y seguir aprendiendo en el proceso. 
+
+A continuación algunos ejemplos de lo que `histogramR` puede hacer.
+
+```{r message=FALSE}
+library(histogramR)
+library(knitr)
+
+estatura <- rnorm(80, 160, 10)
+
+tab_freq(estatura) %>% 
+  rename(Frecuencia = f,
+         "Frecuencia relativa" = rf,
+         "Frecuencia acumulada" = cf,
+         "Frecuencia relativa acumulada" = crf) %>% 
+  kable()
+```
+
+```{r fig.width=3, fig.height=3, out.width = '30%', fig.show='hold', fig.align='center'}
+plot_freq(estatura, nclass = "FD")
+plot_freq(estatura, nclass = "FD", density = TRUE, cfp = TRUE)
+```
+
+```{r}
+comparacion <- nc_comp(estatura)
+
+summary(comparacion)
+
+ggplot(comparacion)
+```
+

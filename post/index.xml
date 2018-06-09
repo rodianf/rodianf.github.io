@@ -1,21 +1,147 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Post-rsses on Rodian Fonseca</title>
-    <link>http://rodian.co/post/index.xml</link>
-    <description>Recent content in Post-rsses on Rodian Fonseca</description>
+    <title>Posts on Rodian Fonseca</title>
+    <link>http://rodian.co/post/</link>
+    <description>Recent content in Posts on Rodian Fonseca</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-co</language>
     <copyright>&lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by/4.0/&#34;&gt;&lt;img alt=&#34;Licencia Creative Commons&#34; style=&#34;border-width:0&#34; src=&#34;https://i.creativecommons.org/l/by/4.0/80x15.png&#34; /&gt;&lt;/a&gt; Rodian Fonseca Campuzano. &lt;br&gt;</copyright>
-    <lastBuildDate>Wed, 21 Dec 2016 17:51:41 -0500</lastBuildDate>
-    <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 09 May 2018 17:21:39 -0500</lastBuildDate>
+    <atom:link href="/post/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>histogramR</title>
+      <link>http://rodian.co/2018/05/09/histogramr/</link>
+      <pubDate>Wed, 09 May 2018 17:21:39 -0500</pubDate>
+      
+      <guid>http://rodian.co/2018/05/09/histogramr/</guid>
+      <description>&lt;p&gt;En el módulo de estadística computacional de la maestría en Estadística Aplicada de la Universidad del Norte, tuve la oportunidad de desarrollar un paquete para R que produce tablas de distribución de frecuencias, histogramas y polígonos de frecuencia con &lt;code&gt;dplyr&lt;/code&gt; y &lt;code&gt;ggplot2&lt;/code&gt;. Utilizar estos paquetes permiten gran versatilidad en las salidas de las funciones, por ejemplo, usar tuberías (&lt;em&gt;pipes&lt;/em&gt;) para hacer modificaciones en los marcos de datos cuando se producen tablas de frecuencias o capas de &lt;code&gt;ggplot2&lt;/code&gt; para las gráficas.&lt;/p&gt;
+&lt;p&gt;Debido a que el paquete es producto de una actividad académica y no de una necesidad personal, los resultados que genera son relativamente triviales a lo que un usuario de R pueda necesitar; por lo tanto, no dejará de ser un ejercicio para mejorar el desarrollo de paquetes para R. Sin embargo, en caso de resultar útil de alguna forma, cualquier tipo de &lt;em&gt;freedback&lt;/em&gt; será bienvenido.&lt;/p&gt;
+&lt;p&gt;El paquete &lt;code&gt;histogramR&lt;/code&gt; se puede descargar desde el siguiente repositorio de Github &lt;a href=&#34;https://github.com/rodianf/histogramR&#34; class=&#34;uri&#34;&gt;https://github.com/rodianf/histogramR&lt;/a&gt;. Las instrucciones de instalación y algunos ejemplos también se pueden consultar desde el documento &lt;em&gt;Readme&lt;/em&gt; del repositorio. El camino a seguir será mejorar la eficiencia de las funciones y seguir aprendiendo en el proceso.&lt;/p&gt;
+&lt;p&gt;A continuación algunos ejemplos de lo que &lt;code&gt;histogramR&lt;/code&gt; puede hacer.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(histogramR)
+library(knitr)
+
+estatura &amp;lt;- rnorm(80, 160, 10)
+
+tab_freq(estatura) %&amp;gt;% 
+  rename(Frecuencia = f,
+         &amp;quot;Frecuencia relativa&amp;quot; = rf,
+         &amp;quot;Frecuencia acumulada&amp;quot; = cf,
+         &amp;quot;Frecuencia relativa acumulada&amp;quot; = crf) %&amp;gt;% 
+  kable()&lt;/code&gt;&lt;/pre&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr class=&#34;header&#34;&gt;
+&lt;th align=&#34;left&#34;&gt;estatura&lt;/th&gt;
+&lt;th align=&#34;right&#34;&gt;Frecuencia&lt;/th&gt;
+&lt;th align=&#34;right&#34;&gt;Frecuencia relativa&lt;/th&gt;
+&lt;th align=&#34;right&#34;&gt;Frecuencia acumulada&lt;/th&gt;
+&lt;th align=&#34;right&#34;&gt;Frecuencia relativa acumulada&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;[130, 135)&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;2&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.0250&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;2&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.0250&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;[140, 145)&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;6&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.0750&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;8&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.1000&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;[145, 150)&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;11&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.1375&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;19&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.2375&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;[150, 155)&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;5&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.0625&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;24&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.3000&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;[155, 160)&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;14&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.1750&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;38&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.4750&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;[160, 165)&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;16&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.2000&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;54&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.6750&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;[165, 170)&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;15&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.1875&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;69&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.8625&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;[170, 175)&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;7&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.0875&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;76&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.9500&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;[175, 180)&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;3&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.0375&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;79&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.9875&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;[180, 185]&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;1&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.0125&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;80&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;1.0000&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;plot_freq(estatura, nclass = &amp;quot;FD&amp;quot;)
+plot_freq(estatura, nclass = &amp;quot;FD&amp;quot;, density = TRUE, cfp = TRUE)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;../post/histogramR_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;30%&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;img src=&#34;../post/histogramR_files/figure-html/unnamed-chunk-2-2.png&#34; width=&#34;30%&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;comparacion &amp;lt;- nc_comp(estatura)
+
+summary(comparacion)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Class number methods comparison.
+## 
+##    method nclasses
+## 1 Sturges        8
+## 2      FD        7
+## 3   scott        6
+## 
+## Summary of input vector:
+## 
+##    Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+##   133.6   151.0   160.9   159.3   166.9   181.3&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;ggplot(comparacion)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;../post/histogramR_files/figure-html/unnamed-chunk-3-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Arrancando</title>
-      <link>http://rodian.co/2016/12/21/arrancando</link>
+      <link>http://rodian.co/2016/12/21/arrancando/</link>
       <pubDate>Wed, 21 Dec 2016 17:51:41 -0500</pubDate>
       
-      <guid>http://rodian.co/2016/12/21/arrancando</guid>
+      <guid>http://rodian.co/2016/12/21/arrancando/</guid>
       <description>&lt;p&gt;&lt;a data-flickr-embed=&#34;true&#34;  href=&#34;https://www.flickr.com/photos/rodianfc/18574498623/in/dateposted-public/&#34; title=&#34;Chalupa&#34;&gt;&lt;img src=&#34;https://c8.staticflickr.com/1/358/18574498623_41f55fa367_b.jpg&#34; width=&#34;1024&#34; height=&#34;683&#34; alt=&#34;Chalupa&#34;&gt;&lt;/a&gt;&lt;script async src=&#34;//embedr.flickr.com/assets/client-code.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
 </description>
     </item>
